@@ -1,0 +1,1121 @@
+{
+  "BlockingLoader.text": {
+    "defaultMessage": "Working"
+  },
+  "ErrorBanner.header.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "ErrorBanner.header.delete.description1": {
+    "defaultMessage": "Are you sure you want to delete"
+  },
+  "ErrorBanner.header.delete.title": {
+    "defaultMessage": "Delete Deployment'}?"
+  },
+  "ErrorBanner.header.delete.yes": {
+    "defaultMessage": "Yes"
+  },
+  "GroupErrorBanner.header.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "GroupErrorBanner.header.delete.description1": {
+    "defaultMessage": "Are you sure you want to delete"
+  },
+  "GroupErrorBanner.header.delete.title": {
+    "defaultMessage": "Delete Group'}?"
+  },
+  "GroupErrorBanner.header.delete.yes": {
+    "defaultMessage": "Yes"
+  },
+  "admin_panel.header.title": {
+    "defaultMessage": "Admin Panel"
+  },
+  "admin_panel.subheader.title": {
+    "defaultMessage": "Register Users"
+  },
+  "create_records.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "create_records.button.import": {
+    "defaultMessage": "Import"
+  },
+  "create_records.button.submit": {
+    "defaultMessage": "Submit"
+  },
+  "create_records.button.template": {
+    "defaultMessage": "Download Template"
+  },
+  "create_records.button.upload": {
+    "defaultMessage": "Add from CSV"
+  },
+  "create_records.consent.title": {
+    "defaultMessage": "Consent Fields"
+  },
+  "create_records.csv_data.accepted_values_validation": {
+    "defaultMessage": "The accepted values are: 1, 0, true or false."
+  },
+  "create_records.csv_data.column_view": {
+    "defaultMessage": "Column View"
+  },
+  "create_records.csv_data.header.no_value": {
+    "defaultMessage": "No value"
+  },
+  "create_records.csv_data.no_records": {
+    "defaultMessage": "No Records Found In CSV File."
+  },
+  "create_records.csv_data.required_validation": {
+    "defaultMessage": "records do not have a value for the required"
+  },
+  "create_records.csv_data.row_view": {
+    "defaultMessage": "Row View"
+  },
+  "create_records.csv_data.text.anon": {
+    "defaultMessage": "Anon"
+  },
+  "create_records.csv_data.text.consent": {
+    "defaultMessage": "Consent"
+  },
+  "create_records.csv_data.text.field": {
+    "defaultMessage": "Field"
+  },
+  "create_records.csv_data.text.fields": {
+    "defaultMessage": "Fields"
+  },
+  "create_records.csv_data.text.not_in_config": {
+    "defaultMessage": "Not In Config"
+  },
+  "create_records.csv_data.text.private": {
+    "defaultMessage": "Private"
+  },
+  "create_records.csv_data.text.public": {
+    "defaultMessage": "Public"
+  },
+  "create_records.csv_data.text.user": {
+    "defaultMessage": "User"
+  },
+  "create_records.csv_data.unaccepted_values_validation1": {
+    "defaultMessage": "consent field value is unsupported and will be ignored during import."
+  },
+  "create_records.csv_data.unaccepted_values_validation2": {
+    "defaultMessage": "consent field values are unsupported and will be ignored during import."
+  },
+  "create_records.fields.title": {
+    "defaultMessage": "Data Fields"
+  },
+  "create_records.header.title": {
+    "defaultMessage": "Create Records"
+  },
+  "create_records.import.bullet1": {
+    "defaultMessage": "Use the “Download Template” button to download a template for this deployment."
+  },
+  "create_records.import.bullet2": {
+    "defaultMessage": "Create the CSV you’d like to upload, so that it matches the template provided. It must be a comma “,” delimited file and we do not currently support semicolon delimited “;” files. Column order does not matter but properly named headers are required and any lines of data missing a User ID “uuid” will be omitted. Any fields containing a comma must be quote wrapped."
+  },
+  "create_records.import.bullet3": {
+    "defaultMessage": "To set consent field values, use a value of 1, 0, true or false. If no value is provided no changes will be made to the consent field for that record."
+  },
+  "create_records.import.bullet4": {
+    "defaultMessage": "Upload the CSV you created using the “Add from CSV” button."
+  },
+  "create_records.import.bullet5": {
+    "defaultMessage": "Review the data preview to ensure the file is properly formatted and the data displays correctly in the preview. If revisions are needed click the “Cancel” button and repeat the process."
+  },
+  "create_records.import.bullet6": {
+    "defaultMessage": "Click the “Import” button to import all records in the uploaded file. Please note that this action is permanent and cannot be undone."
+  },
+  "create_records.import.bullet7": {
+    "defaultMessage": "User ID field value is required. Only the records that have a value for this field can be imported."
+  },
+  "create_records.import.header": {
+    "defaultMessage": "Data Import"
+  },
+  "create_records.import.text": {
+    "defaultMessage": "You can import records in bulk via CSV file using the process below:"
+  },
+  "create_records.placeholder.no_active": {
+    "defaultMessage": "No Active Opt-Ins"
+  },
+  "create_records.placeholder.no_flags": {
+    "defaultMessage": "No Opt-Ins Configured"
+  },
+  "create_records.select.false": {
+    "defaultMessage": "False"
+  },
+  "create_records.select.true": {
+    "defaultMessage": "True"
+  },
+  "create_records.tab1": {
+    "defaultMessage": "Single Records"
+  },
+  "create_records.tab2": {
+    "defaultMessage": "Bulk Import"
+  },
+  "create_records.tooltip.private_field": {
+    "defaultMessage": "Private Field"
+  },
+  "create_records.tooltip.private_user_field": {
+    "defaultMessage": "User Field (Private)"
+  },
+  "create_records.tooltip.public_field": {
+    "defaultMessage": "Public Field"
+  },
+  "create_records.tooltip.public_user_field": {
+    "defaultMessage": "User Field (Public)"
+  },
+  "deployments.accesses.card.api_keys": {
+    "defaultMessage": "API Keys"
+  },
+  "deployments.accesses.card.no_configs": {
+    "defaultMessage": "No Data Configurations"
+  },
+  "deployments.accesses.header.api_key": {
+    "defaultMessage": "API Key"
+  },
+  "deployments.accesses.header.delete.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "deployments.accesses.header.delete.description": {
+    "defaultMessage": "Are you sure you want to remove this API key?"
+  },
+  "deployments.accesses.header.delete.title": {
+    "defaultMessage": "Delete API Key?"
+  },
+  "deployments.accesses.header.delete.yes": {
+    "defaultMessage": "Yes"
+  },
+  "deployments.accesses.header.deployment_id": {
+    "defaultMessage": "Deployment ID"
+  },
+  "deployments.accesses.header.description": {
+    "defaultMessage": "Description"
+  },
+  "deployments.accesses.no_api_keys": {
+    "defaultMessage": "No API Keys"
+  },
+  "deployments.accesses.no_keys_created": {
+    "defaultMessage": "No API Keys Created"
+  },
+  "deployments.bulk_load.body": {
+    "defaultMessage": "Some sort of bulk data load tool."
+  },
+  "deployments.bulk_load.title": {
+    "defaultMessage": "Bulk Load Data"
+  },
+  "deployments.code.body": {
+    "defaultMessage": "Display deployment code and endpoints."
+  },
+  "deployments.code.title": {
+    "defaultMessage": "Code + API Endpoints"
+  },
+  "deployments.data_ingest.description.tooltip": {
+    "defaultMessage": "The User ID field is the unique field to each user in your deployment, such as an email"
+  },
+  "deployments.data_ingest.duplicate_field": {
+    "defaultMessage": "Duplicate field found between anon and private fields..."
+  },
+  "deployments.data_ingest.form.label": {
+    "defaultMessage": "User ID Field Name"
+  },
+  "deployments.data_ingest.info_card.title": {
+    "defaultMessage": "Data Ingest"
+  },
+  "deployments.data_ingest.no_configurations": {
+    "defaultMessage": "No Data Configurations"
+  },
+  "deployments.data_ingest.none": {
+    "defaultMessage": "None"
+  },
+  "deployments.data_ingest.step.click": {
+    "defaultMessage": "Click"
+  },
+  "deployments.data_ingest.step.define": {
+    "defaultMessage": "to define which field is the User ID Field."
+  },
+  "deployments.data_ingest.step.duplicate": {
+    "defaultMessage": "Duplicate field found between anon and private fields..."
+  },
+  "deployments.data_ingest.step.explanation": {
+    "defaultMessage": "(You can adjust this later)"
+  },
+  "deployments.data_ingest.step.field.label": {
+    "defaultMessage": "User ID Field Name"
+  },
+  "deployments.data_ingest.step.required": {
+    "defaultMessage": "Naming a User ID Field is required."
+  },
+  "deployments.data_ingest.step.switch": {
+    "defaultMessage": "Ingest All Fields"
+  },
+  "deployments.data_ingest.step.title": {
+    "defaultMessage": "Data Ingest"
+  },
+  "deployments.data_ingest.step.tooltip": {
+    "defaultMessage": "The User ID field is the unique field to each user in your deployment, such as an email"
+  },
+  "deployments.data_ingest.success.title": {
+    "defaultMessage": "Success"
+  },
+  "deployments.data_ingest.to_define": {
+    "defaultMessage": "to define which field is the User ID Field."
+  },
+  "deployments.data_ingest.toggle": {
+    "defaultMessage": "Ingest All Fields"
+  },
+  "deployments.data_ingest.update.message": {
+    "defaultMessage": "Deployment Updated"
+  },
+  "deployments.data_ingest.uuid_required": {
+    "defaultMessage": "Naming a User ID Field is required."
+  },
+  "deployments.data_rules.body": {
+    "defaultMessage": "To start this will probably be something basic. Longer term will probably be a library you can pick and choose from. For MVP it probably lists a few standard smart contracts we have like Opt-in, 3rd party data sharing. We'd then need to define what fields are used as inputs like location and opt-in flag."
+  },
+  "deployments.data_rules.step.body": {
+    "defaultMessage": "What's the name of the Deployment?"
+  },
+  "deployments.data_rules.step.name": {
+    "defaultMessage": "Deployment Name"
+  },
+  "deployments.data_rules.step.title": {
+    "defaultMessage": "Let's start with the basic information"
+  },
+  "deployments.data_rules.title": {
+    "defaultMessage": "Data Rules (Smart Contracts)"
+  },
+  "deployments.deployment_union_item.confirmation_cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "deployments.deployment_union_item.confirmation_description1": {
+    "defaultMessage": "Are you sure you want to remove the association with"
+  },
+  "deployments.deployment_union_item.confirmation_description2": {
+    "defaultMessage": "this data union"
+  },
+  "deployments.deployment_union_item.confirmation_title": {
+    "defaultMessage": "Delete data union association?"
+  },
+  "deployments.deployment_union_item.confirmation_yes": {
+    "defaultMessage": "Yes"
+  },
+  "deployments.deployment_union_item.delete": {
+    "defaultMessage": "Delete"
+  },
+  "deployments.deployment_union_item.tooltip": {
+    "defaultMessage": "View Data Union Records"
+  },
+  "deployments.dropdown.header.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "deployments.dropdown.header.delete.description": {
+    "defaultMessage": "This Deployment failed to write to the blockchain, do you want to delete"
+  },
+  "deployments.dropdown.header.delete.title": {
+    "defaultMessage": "Delete Deployment?"
+  },
+  "deployments.dropdown.header.delete.yes": {
+    "defaultMessage": "Yes"
+  },
+  "deployments.dropdown.label": {
+    "defaultMessage": "Select a Deployment"
+  },
+  "deployments.groups_access.titleWithNoOrgGroups": {
+    "defaultMessage": "All Shared Access Groups"
+  },
+  "deployments.groups_access.titleWithOrgGroups": {
+    "defaultMessage": "All Other Shared Access Groups"
+  },
+  "deployments.header.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "deployments.header.create.title": {
+    "defaultMessage": "Create A Deployment"
+  },
+  "deployments.header.delete.description1": {
+    "defaultMessage": "Are you sure you want to delete"
+  },
+  "deployments.header.delete.description2": {
+    "defaultMessage": "this deployment"
+  },
+  "deployments.header.delete.title": {
+    "defaultMessage": "Delete Deployment?"
+  },
+  "deployments.header.delete.yes": {
+    "defaultMessage": "Yes"
+  },
+  "deployments.header.title": {
+    "defaultMessage": "Deployments"
+  },
+  "deployments.header.updating": {
+    "defaultMessage": "Updating Deployment"
+  },
+  "deployments.ingest.private_fields.title": {
+    "defaultMessage": "Private Fields"
+  },
+  "deployments.ingest_fields.field_name": {
+    "defaultMessage": "Field Name"
+  },
+  "deployments.ingest_fields.title": {
+    "defaultMessage": "Fields"
+  },
+  "deployments.ingest_fields.tooltip.add": {
+    "defaultMessage": "Add"
+  },
+  "deployments.ingest_fields.tooltip.set": {
+    "defaultMessage": "Set as User ID field"
+  },
+  "deployments.keys.body": {
+    "defaultMessage": "This is where keys can be created for internally at the client's company. Maybe this lists users associated with the company? Maybe it's an add access. For MVP these will be all or nothing. Do these even end up being keys actually shown in the UI or do we just custody?"
+  },
+  "deployments.keys.title": {
+    "defaultMessage": "Keys / Access"
+  },
+  "deployments.list.placeholder": {
+    "defaultMessage": "No Deployments"
+  },
+  "deployments.list.title": {
+    "defaultMessage": "Deployments"
+  },
+  "deployments.opt-in_flags.step.body": {
+    "defaultMessage": "(Yup. You can do this later too.)"
+  },
+  "deployments.opt-in_flags.step.duplicate": {
+    "defaultMessage": "Duplicate field found between anon and private fields..."
+  },
+  "deployments.opt-in_flags.step.title": {
+    "defaultMessage": "Opt-In Fields"
+  },
+  "deployments.select_union.select_label": {
+    "defaultMessage": "Select a Data Union"
+  },
+  "deployments.select_union.title": {
+    "defaultMessage": "Data Unions Public List"
+  },
+  "deployments.shared_access.placeholder": {
+    "defaultMessage": "No Shared Accesses"
+  },
+  "deployments.shared_access.title": {
+    "defaultMessage": "Shared Accesses"
+  },
+  "deployments.unions.associate_union_wizard.explanation": {
+    "defaultMessage": "Share with a Data Union"
+  },
+  "deployments.unions.consents_step.body": {
+    "defaultMessage": "Select all consents required to access the data."
+  },
+  "deployments.unions.consents_step.description": {
+    "defaultMessage": "If no consents are selected, this Data Union will have access to all records in the deployment by default."
+  },
+  "deployments.unions.consents_step.title": {
+    "defaultMessage": "Add some consents!"
+  },
+  "deployments.unions.consents_step.validation": {
+    "defaultMessage": "There are no consent flags created, so this Data Union will have access to all records in the deployment by default."
+  },
+  "deployments.unions.consents_step.warning": {
+    "defaultMessage": "WARNING"
+  },
+  "deployments.unions.parts_selector.anon": {
+    "defaultMessage": "Anon Fields"
+  },
+  "deployments.unions.parts_selector.meta": {
+    "defaultMessage": "Meta Data"
+  },
+  "deployments.unions.parts_selector.private": {
+    "defaultMessage": "Private Fields"
+  },
+  "deployments.unions.placeholder": {
+    "defaultMessage": "Not Shared With Any Data Union"
+  },
+  "deployments.unions.privileges_step.add": {
+    "defaultMessage": "Add some data!"
+  },
+  "deployments.unions.privileges_step.description": {
+    "defaultMessage": "What data do you want this Data Union to have access to?"
+  },
+  "deployments.unions_card.title": {
+    "defaultMessage": "Data Unions"
+  },
+  "deployments.unions_step.title": {
+    "defaultMessage": "Select a Data Union to share data with."
+  },
+  "deployments.wizard.button.back": {
+    "defaultMessage": "back"
+  },
+  "deployments.wizard.button.cancel": {
+    "defaultMessage": "cancel"
+  },
+  "deployments.wizard.button.create": {
+    "defaultMessage": "create"
+  },
+  "deployments.wizard.button.next": {
+    "defaultMessage": "next"
+  },
+  "deployments.wizard.name_step.body": {
+    "defaultMessage": "What's the name of the Deployment?"
+  },
+  "deployments.wizard.name_step.label": {
+    "defaultMessage": "Deployment Name"
+  },
+  "deployments.wizard.name_step.title": {
+    "defaultMessage": "Let's start with the basic information"
+  },
+  "documentation.configuration.bullet1": {
+    "defaultMessage": "Add a new"
+  },
+  "documentation.configuration.bullet1.part2": {
+    "defaultMessage": "to your account in the settings page."
+  },
+  "documentation.configuration.bullet2": {
+    "defaultMessage": "Once you create an"
+  },
+  "documentation.configuration.bullet2.part2": {
+    "defaultMessage": ", go to the Deployments page and add a"
+  },
+  "documentation.configuration.bullet3": {
+    "defaultMessage": "To configure your"
+  },
+  "documentation.configuration.bullet3.part2": {
+    "defaultMessage": ", add each field you wish to collect data for in the private or public field inputs on the wizard. Make sure the field names are the same as the names of each respective input element in the form. (Note: you do not have to create fields for the specific flags (binary fields) you wish to write on-chain, those are configured separately once the deployment is created)."
+  },
+  "documentation.configuration.bullet4": {
+    "defaultMessage": "Select the field you wish to be the “user field” which is used to create the"
+  },
+  "documentation.configuration.bullet4.part2": {
+    "defaultMessage": "that’s also written on-chain."
+  },
+  "documentation.configuration.bullet5": {
+    "defaultMessage": "Once you’ve created a deployment, go to the op-in fields section on the deployment page to configure your on-chain"
+  },
+  "documentation.configuration.bullet6.part1": {
+    "defaultMessage": "is just a business abstraction for the Waev user to understand, the"
+  },
+  "documentation.configuration.bullet6.part2": {
+    "defaultMessage": "is the name that needs to match the input element in the form."
+  },
+  "documentation.configuration.bullet7": {
+    "defaultMessage": "(Note: if you want a flag that's based on the input of a field that already exists, you can simply name the source field the same as field name and the flag binary will be based on that field input)"
+  },
+  "documentation.configuration.bullet8": {
+    "defaultMessage": "Once you have a flag or flags, you can generate an"
+  },
+  "documentation.configuration.bullet8.part2": {
+    "defaultMessage": "and reveal your"
+  },
+  "documentation.configuration.end": {
+    "defaultMessage": "Once everything above is configured, you will be able to integrate the HTML javascript blob to start collecting data."
+  },
+  "documentation.configuration.intro.text": {
+    "defaultMessage": "To set up a Waev deployment in the Waev Dashboard:"
+  },
+  "documentation.configuration.title": {
+    "defaultMessage": "Waev Configuration"
+  },
+  "documentation.header.title": {
+    "defaultMessage": "Documentation"
+  },
+  "documentation.imlementation.title": {
+    "defaultMessage": "Implementation"
+  },
+  "documentation.integrations.text": {
+    "defaultMessage": "Easily ingest data across platforms"
+  },
+  "documentation.integrations.title": {
+    "defaultMessage": "Waev Integrations"
+  },
+  "documentation.link.records.page": {
+    "defaultMessage": "Waev Records Page"
+  },
+  "documentation.viewing.records.text": {
+    "defaultMessage": "To see if the form is ingesting properly, you can visit your"
+  },
+  "documentation.viewing.records.title": {
+    "defaultMessage": "Viewing Records"
+  },
+  "documentation.web.docs.bullet1.part1": {
+    "defaultMessage": "Add the"
+  },
+  "documentation.web.docs.bullet1.part2": {
+    "defaultMessage": "file to your site in a directory that is easily accessible."
+  },
+  "documentation.web.docs.bullet2.part1": {
+    "defaultMessage": "Add the script to your html, such as"
+  },
+  "documentation.web.docs.bullet2.part2": {
+    "defaultMessage": "OR just add the script to your html with the proper CDN url for the desired package, such as"
+  },
+  "documentation.web.docs.bullet3.part1": {
+    "defaultMessage": "Create/find your Api Key and Deployment Id on the"
+  },
+  "documentation.web.docs.bullet3.part2": {
+    "defaultMessage": "Be sure that your configurations are correct on this page as well."
+  },
+  "documentation.web.docs.bullet4": {
+    "defaultMessage": "For the form you wish to ingest, find the html's form id. (Ex."
+  },
+  "documentation.web.docs.bullet5": {
+    "defaultMessage": "In another script tag in your html, instantiate the Waev class with the Deployment Id, Api Key, and Form ID."
+  },
+  "documentation.web.docs.deployments.link": {
+    "defaultMessage": "Waev Deployments Page"
+  },
+  "documentation.web.docs.description": {
+    "defaultMessage": "For standard forms, in order to start ingesting data through Waev:"
+  },
+  "documentation.web.integration": {
+    "defaultMessage": "Web Integration"
+  },
+  "forgot_password.description": {
+    "defaultMessage": "Have a new QR Code sent to your email."
+  },
+  "forgot_password.error.message": {
+    "defaultMessage": "Something went wrong with the password request. Try again later."
+  },
+  "forgot_password.error.title": {
+    "defaultMessage": "Whoops!"
+  },
+  "forgot_password.find": {
+    "defaultMessage": "Did you find it?"
+  },
+  "forgot_password.invalid_email": {
+    "defaultMessage": "Email is invalid"
+  },
+  "forgot_password.label.email": {
+    "defaultMessage": "Email"
+  },
+  "forgot_password.sent_request": {
+    "defaultMessage": "Send Request"
+  },
+  "forgot_password.sign_in": {
+    "defaultMessage": "Sign In"
+  },
+  "forgot_password.success.content": {
+    "defaultMessage": "If the email was in the system, a request has been sent."
+  },
+  "forgot_password.success.title": {
+    "defaultMessage": "Success!"
+  },
+  "forgot_password.title": {
+    "defaultMessage": "Forgot Password?"
+  },
+  "format.data.denied.text": {
+    "defaultMessage": "Access Denied"
+  },
+  "format.data.failedFetch.text": {
+    "defaultMessage": "Failed to Fetch"
+  },
+  "format_data.denied.text": {
+    "defaultMessage": "Access Denied"
+  },
+  "format_data.encrypted.text": {
+    "defaultMessage": "Encrypted"
+  },
+  "format_data.failedFetch.text": {
+    "defaultMessage": "Failed to Fetch"
+  },
+  "home.hello": {
+    "defaultMessage": "Hello."
+  },
+  "lost.part1": {
+    "defaultMessage": "Oh! Hey..."
+  },
+  "lost.part2": {
+    "defaultMessage": "Are you lost?"
+  },
+  "magic_link.description": {
+    "defaultMessage": "Have a new magic link sent to your email."
+  },
+  "magic_link.error.message": {
+    "defaultMessage": "Something went wrong with the magic link request. Try again later."
+  },
+  "magic_link.error.title": {
+    "defaultMessage": "Whoops!"
+  },
+  "magic_link.find": {
+    "defaultMessage": "Sign in with email and TOTP?"
+  },
+  "magic_link.invalid_email": {
+    "defaultMessage": "Email is invalid"
+  },
+  "magic_link.label.email": {
+    "defaultMessage": "Email"
+  },
+  "magic_link.no_account": {
+    "defaultMessage": "Don't have an account?"
+  },
+  "magic_link.sent_request": {
+    "defaultMessage": "Send Request"
+  },
+  "magic_link.sign_in": {
+    "defaultMessage": "Sign In"
+  },
+  "magic_link.sign_up": {
+    "defaultMessage": "Sign Up"
+  },
+  "magic_link.success.content": {
+    "defaultMessage": "Check your email to complete the login."
+  },
+  "magic_link.success.title": {
+    "defaultMessage": "Success!"
+  },
+  "magic_link.title": {
+    "defaultMessage": "Sign in with magic link"
+  },
+  "permissions.dropdown.enter.email": {
+    "defaultMessage": "Enter an Email"
+  },
+  "permissions.selector.entity": {
+    "defaultMessage": "entity"
+  },
+  "permissions.selector.option.admin": {
+    "defaultMessage": "Admin"
+  },
+  "permissions.selector.option.read": {
+    "defaultMessage": "Read"
+  },
+  "permissions.selector.option.write": {
+    "defaultMessage": "Write"
+  },
+  "permissions.selector.tooltip1.part1": {
+    "defaultMessage": "The admin permission will allow all, EXCEPT removing the owner from or deleting the"
+  },
+  "permissions.selector.tooltip1.part2": {
+    "defaultMessage": "Check this if they need to be able to add users."
+  },
+  "permissions.selector.tooltip2": {
+    "defaultMessage": "The read permission allows the user to see the permissions of other users in this"
+  },
+  "permissions.selector.tooltip3.part1": {
+    "defaultMessage": "The write permission includes read, but will also allow them to make changes to"
+  },
+  "permissions.selector.tooltip3.part2": {
+    "defaultMessage": "but does not allow them to add users"
+  },
+  "records.tooltip.expand": {
+    "defaultMessage": "Get Decrypted Record"
+  },
+  "records.tooltip.refetch": {
+    "defaultMessage": "Try Refetching"
+  },
+  "register.already.account": {
+    "defaultMessage": "Already have an account?"
+  },
+  "register.check.box.part1": {
+    "defaultMessage": "By checking this box and clicking"
+  },
+  "register.check.box.part2": {
+    "defaultMessage": "”SIGN UP”"
+  },
+  "register.check.box.part3": {
+    "defaultMessage": "I acknowledge that I read and understand the"
+  },
+  "register.check.box.part4": {
+    "defaultMessage": "Waev Terms of Use"
+  },
+  "register.check.box.part5": {
+    "defaultMessage": "including the"
+  },
+  "register.check.box.part6": {
+    "defaultMessage": "Privacy Policy"
+  },
+  "register.check.box.part7": {
+    "defaultMessage": "and agree to be bound by both."
+  },
+  "register.enter.email": {
+    "defaultMessage": "Enter your email and password to register"
+  },
+  "register.error.message": {
+    "defaultMessage": "Something went wrong with registration. Try again later."
+  },
+  "register.error.title": {
+    "defaultMessage": "Whoops!"
+  },
+  "register.first_name_required": {
+    "defaultMessage": "First name required"
+  },
+  "register.invalid.email": {
+    "defaultMessage": "Email is invalid"
+  },
+  "register.join.us": {
+    "defaultMessage": "Join us today"
+  },
+  "register.label.email": {
+    "defaultMessage": "Email"
+  },
+  "register.label.first_name": {
+    "defaultMessage": "First Name"
+  },
+  "register.label.last_name": {
+    "defaultMessage": "Last Name"
+  },
+  "register.last_name_required": {
+    "defaultMessage": "Last name required"
+  },
+  "register.sign.in": {
+    "defaultMessage": "Sign In"
+  },
+  "register.sign.up": {
+    "defaultMessage": "sign up"
+  },
+  "register.success.content": {
+    "defaultMessage": "An email has been sent."
+  },
+  "register.success.title": {
+    "defaultMessage": "Success!"
+  },
+  "renew_token.button": {
+    "defaultMessage": "renew"
+  },
+  "renew_token.invalid": {
+    "defaultMessage": "Token is invalid for"
+  },
+  "renew_token.label.TOTP": {
+    "defaultMessage": "6-Digit TOTP Token"
+  },
+  "renew_token.logout": {
+    "defaultMessage": "Log Out?"
+  },
+  "renew_token.title": {
+    "defaultMessage": "Session Expiring Soon"
+  },
+  "setting.organization_card.confirmation.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "setting.organization_card.confirmation.description1": {
+    "defaultMessage": "Are you sure you want to delete"
+  },
+  "setting.organization_card.confirmation.description2": {
+    "defaultMessage": "this organization"
+  },
+  "setting.organization_card.confirmation.title": {
+    "defaultMessage": "Delete Organization?"
+  },
+  "setting.organization_card.confirmation.yes": {
+    "defaultMessage": "Yes"
+  },
+  "setting.organization_card.tooltip.save": {
+    "defaultMessage": "Save"
+  },
+  "settings.deployments_list.associated_deployments": {
+    "defaultMessage": "Associated Deployments"
+  },
+  "settings.deployments_list.deployments": {
+    "defaultMessage": "Deployments"
+  },
+  "settings.deployments_list.no_deployments1": {
+    "defaultMessage": "You have no deployments. Go to the"
+  },
+  "settings.deployments_list.no_deployments2": {
+    "defaultMessage": "page to create one."
+  },
+  "settings.enrolled_users.no_users": {
+    "defaultMessage": "No Enrolled Users"
+  },
+  "settings.enrolled_users.title": {
+    "defaultMessage": "Enrolled Users"
+  },
+  "settings.organization_card.delete": {
+    "defaultMessage": "Delete"
+  },
+  "settings.organization_card.edit": {
+    "defaultMessage": "Edit"
+  },
+  "settings.organization_card.enrolled_user": {
+    "defaultMessage": "Enrolled User"
+  },
+  "settings.organization_dropdown.label": {
+    "defaultMessage": "Select an Organization"
+  },
+  "settings.subheader.subtitle": {
+    "defaultMessage": "Manage your organization here!"
+  },
+  "settings.subheader.title": {
+    "defaultMessage": "Your Organization"
+  },
+  "sign_in.forget_password": {
+    "defaultMessage": "Forget Password?"
+  },
+  "sign_in.label.TOTP": {
+    "defaultMessage": "6-Digit TOTP Token"
+  },
+  "sign_in.label.email": {
+    "defaultMessage": "Email"
+  },
+  "sign_in.magic_link": {
+    "defaultMessage": "Magic Link"
+  },
+  "sign_in.magic_link_text": {
+    "defaultMessage": "Sign in with"
+  },
+  "sign_in.no_account": {
+    "defaultMessage": "Don't have an account?"
+  },
+  "sign_in.recover_account": {
+    "defaultMessage": "Recover Account"
+  },
+  "sign_in.sign_up": {
+    "defaultMessage": "Sign Up"
+  },
+  "sign_in.submit.button": {
+    "defaultMessage": "sign in"
+  },
+  "sign_in.waev.title": {
+    "defaultMessage": "Waev Dashboard"
+  },
+  "splash.error.content": {
+    "defaultMessage": "There was a problem signing in."
+  },
+  "splash.login.success.content": {
+    "defaultMessage": "You've been logged in!"
+  },
+  "splash.register.error.content": {
+    "defaultMessage": "There was a problem registering..."
+  },
+  "splash.register.error.title": {
+    "defaultMessage": "Registration Error"
+  },
+  "splash.register.success.content": {
+    "defaultMessage": "Check your email to get the Authenticator QR Code to retrieve the TOTP."
+  },
+  "splash.register.success.title": {
+    "defaultMessage": "You are registered!"
+  },
+  "splash.waev.title": {
+    "defaultMessage": "Waev Dashboard"
+  },
+  "unions.associated_deployments_list.deployments": {
+    "defaultMessage": "Union Deployments"
+  },
+  "unions.associated_deployments_list.no_deployments1": {
+    "defaultMessage": "You have no union deployments. Go to the"
+  },
+  "unions.associated_deployments_list.no_deployments2": {
+    "defaultMessage": "page to create one."
+  },
+  "unions.associated_deployments_list.title": {
+    "defaultMessage": "Associated Deployments"
+  },
+  "unions.create_union_wizard.button.back": {
+    "defaultMessage": "back"
+  },
+  "unions.create_union_wizard.button.cancel": {
+    "defaultMessage": "cancel"
+  },
+  "unions.create_union_wizard.button.create": {
+    "defaultMessage": "create"
+  },
+  "unions.create_union_wizard.button.next": {
+    "defaultMessage": "next"
+  },
+  "unions.create_union_wizard.button.processing": {
+    "defaultMessage": "processing..."
+  },
+  "unions.create_union_wizard.explanation": {
+    "defaultMessage": "Create a Data Union"
+  },
+  "unions.header.title": {
+    "defaultMessage": "Data Unions"
+  },
+  "unions.subheader.subtitle": {
+    "defaultMessage": "Manage your data unions here!"
+  },
+  "unions.subheader.title": {
+    "defaultMessage": "Your Data Unions"
+  },
+  "unions.union_card.confirmation.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "unions.union_card.confirmation.description1": {
+    "defaultMessage": "Are you sure you want to delete"
+  },
+  "unions.union_card.confirmation.description2": {
+    "defaultMessage": "this data union"
+  },
+  "unions.union_card.confirmation.title": {
+    "defaultMessage": "Delete Data Union?"
+  },
+  "unions.union_card.confirmation.yes": {
+    "defaultMessage": "Yes"
+  },
+  "unions.union_card.delete": {
+    "defaultMessage": "Delete"
+  },
+  "unions.union_card.edit": {
+    "defaultMessage": "Edit"
+  },
+  "unions.union_card.tooltip.save": {
+    "defaultMessage": "Save"
+  },
+  "unions.unions_deployments_list.placeholder": {
+    "defaultMessage": "You have no deployments associated with this data union."
+  },
+  "unions.unions_deployments_list.view_records": {
+    "defaultMessage": "View Records"
+  },
+  "user.records.encrypted.text": {
+    "defaultMessage": "Encrypted"
+  },
+  "user.records.none": {
+    "defaultMessage": "None"
+  },
+  "user.records.tooltip.expand": {
+    "defaultMessage": "Get Decrypted Record"
+  },
+  "user.records.tooltip.refetch": {
+    "defaultMessage": "Try Refetching"
+  },
+  "user.update.cancelButton": {
+    "defaultMessage": "Cancel"
+  },
+  "user.update.firstNameLabel": {
+    "defaultMessage": "First Name"
+  },
+  "user.update.header": {
+    "defaultMessage": "Update Your Name:"
+  },
+  "user.update.lastNameLabel": {
+    "defaultMessage": "Last Name"
+  },
+  "user.update.title": {
+    "defaultMessage": "Update User"
+  },
+  "user.update.updateButton": {
+    "defaultMessage": "Update"
+  },
+  "view_data.data_by_entity.column_view": {
+    "defaultMessage": "Column View"
+  },
+  "view_data.data_by_entity.data": {
+    "defaultMessage": "Data"
+  },
+  "view_data.data_by_entity.decrypted": {
+    "defaultMessage": "Decrypted"
+  },
+  "view_data.data_by_entity.description": {
+    "defaultMessage": "Enter an email address in the “User Search” field to find associated records."
+  },
+  "view_data.data_by_entity.encrypted": {
+    "defaultMessage": "Encrypted"
+  },
+  "view_data.data_by_entity.no_records": {
+    "defaultMessage": "No Records Found."
+  },
+  "view_data.data_by_entity.refresh_data": {
+    "defaultMessage": "Refresh Data"
+  },
+  "view_data.data_by_entity.row_view": {
+    "defaultMessage": "Row View"
+  },
+  "view_data.data_by_entity.show": {
+    "defaultMessage": "Show"
+  },
+  "view_data.data_by_entity.showing": {
+    "defaultMessage": "Showing"
+  },
+  "view_data.data_by_entity.title": {
+    "defaultMessage": "View Waev Data"
+  },
+  "view_data.record_modal.anonymous_data": {
+    "defaultMessage": "Anonymous Data"
+  },
+  "view_data.record_modal.blockchain_links": {
+    "defaultMessage": "Blockchain Links"
+  },
+  "view_data.record_modal.created_on": {
+    "defaultMessage": "Created On"
+  },
+  "view_data.record_modal.current_data": {
+    "defaultMessage": "User's Current Data"
+  },
+  "view_data.record_modal.data": {
+    "defaultMessage": "Data"
+  },
+  "view_data.record_modal.meta_data": {
+    "defaultMessage": "Meta Data"
+  },
+  "view_data.record_modal.no_anonymous_data": {
+    "defaultMessage": "No Anonymous Data"
+  },
+  "view_data.record_modal.no_links": {
+    "defaultMessage": "No Links Found"
+  },
+  "view_data.record_modal.no_meta_data": {
+    "defaultMessage": "No Meta Data"
+  },
+  "view_data.record_modal.no_opt_ins": {
+    "defaultMessage": "No Opt Ins"
+  },
+  "view_data.record_modal.no_opt_outs": {
+    "defaultMessage": "No Opt Outs"
+  },
+  "view_data.record_modal.no_pii_data": {
+    "defaultMessage": "No PII Data"
+  },
+  "view_data.record_modal.opt_in": {
+    "defaultMessage": "Opt In"
+  },
+  "view_data.record_modal.opt_in_status": {
+    "defaultMessage": "Opt In Status"
+  },
+  "view_data.record_modal.opt_out": {
+    "defaultMessage": "Opt Out"
+  },
+  "view_data.record_modal.pii": {
+    "defaultMessage": "PII"
+  },
+  "view_data.record_modal.selected_record": {
+    "defaultMessage": "Selected Record"
+  },
+  "view_data.record_modal.tab1": {
+    "defaultMessage": "Selected Record"
+  },
+  "view_data.record_modal.tab2": {
+    "defaultMessage": "User Details"
+  },
+  "view_data.record_modal.tab3": {
+    "defaultMessage": "User History"
+  },
+  "view_data.record_modal.waev_connector": {
+    "defaultMessage": "Waev Connector"
+  },
+  "view_data.subtitle": {
+    "defaultMessage": "Select the data you'd like to view."
+  },
+  "view_data.title": {
+    "defaultMessage": "View Waev Data"
+  },
+  "view_union_data.anon_fields": {
+    "defaultMessage": "Anon Fields"
+  },
+  "view_union_data.consent_fields": {
+    "defaultMessage": "Consent Fields"
+  },
+  "view_union_data.meta_fields": {
+    "defaultMessage": "Meta Fields"
+  },
+  "view_union_data.placeholder.description": {
+    "defaultMessage": "Enter an email address in the search field to find user data."
+  },
+  "view_union_data.placeholder.no_data": {
+    "defaultMessage": "No Data Found."
+  },
+  "view_union_data.private_fields": {
+    "defaultMessage": "Private Fields"
+  },
+  "view_union_data.search_placeholder": {
+    "defaultMessage": "Search for user data"
+  },
+  "view_union_data.title": {
+    "defaultMessage": "View Data Union Records"
+  },
+  "view_union_data.tooltip.back": {
+    "defaultMessage": "Back to Select a Data Union"
+  },
+  "view_union_data.tooltip.data_union": {
+    "defaultMessage": "Data Union"
+  },
+  "view_union_data.user_field": {
+    "defaultMessage": "User Field"
+  },
+  "view_union_data.waev_uid": {
+    "defaultMessage": "Waev Connector"
+  }
+}

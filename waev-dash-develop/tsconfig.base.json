@@ -1,0 +1,33 @@
+{
+  extends: './aliases.json',
+  compileOnSave: false,
+  compilerOptions: {
+    typeRoots: [
+      'node_modules/@types',
+      'src/types/definitions',
+      'src/types',
+      'src/utils'
+    ],
+    target: 'es5',
+    lib: ['dom', 'dom.iterable', 'esnext', 'es2015.iterable'],
+    allowJs: true,
+    skipLibCheck: true,
+    esModuleInterop: true,
+    allowSyntheticDefaultImports: true,
+    strict: true,
+    forceConsistentCasingInFileNames: true,
+    noFallthroughCasesInSwitch: true,
+    module: 'esnext',
+    moduleResolution: 'node',
+    resolveJsonModule: true,
+    isolatedModules: false,
+    noEmit: true,
+    jsx: 'react-jsx',
+    noImplicitThis: true,
+    strictNullChecks: false,
+    downlevelIteration: true,
+    baseUrl: 'src',
+    experimentalDecorators: true,
+    strictPropertyInitialization: false
+  }
+}

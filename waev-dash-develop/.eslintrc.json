@@ -1,0 +1,20 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "parser": "@typescript-eslint/parser",
+  "ignorePatterns": ["manifest.json"],
+  "rules": {
+    "react-hooks/exhaustive-deps": ["off"],
+    "semi": ["error", "always"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
+    "no-empty-pattern": ["off"]
+  }
+}

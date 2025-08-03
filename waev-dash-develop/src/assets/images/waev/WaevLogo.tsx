@@ -1,0 +1,169 @@
+import { keyframes } from '@emotion/react';
+import { MDBox } from 'components';
+import colors from 'assets/theme-dark/base/colors';
+
+interface Props {
+  sx?: any;
+  width?: string | number;
+  height?: string | number;
+  className?: string;
+}
+
+const waevKeyframes = () => keyframes`
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(45%);
+  }
+`;
+const waevDelayKeyframes = () => keyframes`
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(100%);
+}
+`;
+
+const fadeInKeyframes = () => keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+`;
+
+const animate = () => `1.5s linear 1s ${waevKeyframes()}, 1s linear 2.5s ${waevDelayKeyframes()}`;
+
+const { background } = colors;
+
+const backgroundColor = background.default;
+
+export const WaevLogo = ({ className, sx, width = '123', height = '27' }: Props): JSX.Element => {
+  return (
+    <MDBox
+      alt="Waev"
+      className={`Waev-${className || 'Logo'}`}
+      // @ts-ignore
+      sx={({ palette: { gradients } }: Theme) => ({
+        background: backgroundColor,
+        position: 'relative',
+        width: '100%',
+        alignItems: 'center',
+        ...sx,
+      })}
+    >
+      {/* W and V */}
+      <MDBox
+        alt="Waev Waves"
+        className={`Waev-${className || 'Logo'}`}
+        // @ts-ignore
+        sx={({ palette: { gradients } }: Theme) => ({
+          background: backgroundColor,
+          position: 'absolute',
+          '&::before, &::after': {
+            content: '""',
+            display: 'inline - block',
+            position: 'absolute',
+            top: 0,
+          },
+          '&::before': {
+            top: '0',
+            left: '0',
+            width: '100%',
+            height: '100%',
+            background: backgroundColor,
+            animation: animate(),
+            animationFillMode: 'forwards',
+            animationIterationCount: 1,
+          },
+        })}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={width}
+          height={height}
+          viewBox="0 0 123.336 26.862"
+        >
+          <defs>
+            <clipPath id="clip-path">
+              <rect
+                id="Rectangle_1"
+                data-name="Rectangle 1"
+                width="123.336"
+                height="26.862"
+                fill="#fff"
+              />
+            </clipPath>
+          </defs>
+          <g id="logo-1" transform="translate(0 -0.001)">
+            <g
+              id="Group_1"
+              data-name="Group 1"
+              transform="translate(0 0.001)"
+              clipPath="url(#clip-path)"
+            >
+              <path
+                id="Path_1"
+                data-name="Path 1"
+                d="M43.1.206a1.906,1.906,0,0,0-2.645,1.117L32.419,21.011,24.59,2.264a2.6,2.6,0,0,0-1.044-1.23,2.654,2.654,0,0,0-1.37-.41,2.621,2.621,0,0,0-1.387.41A2.988,2.988,0,0,0,19.7,2.3l-7.764,18.71L3.819,1.365A1.9,1.9,0,0,0,1.089.3a2.45,2.45,0,0,0-.9,3L9.061,25.186a2.638,2.638,0,0,0,1.012,1.267,3.222,3.222,0,0,0,1.729.41,2.614,2.614,0,0,0,2.61-1.6l7.8-18.785,7.6,18.785a2.665,2.665,0,0,0,2.61,1.528,2.629,2.629,0,0,0,2.642-1.714v.037L44.084,3.264A2.433,2.433,0,0,0,43.1.206"
+                transform="translate(0 0)"
+                fill="#fff"
+              />
+              <path
+                id="Path_2"
+                data-name="Path 2"
+                d="M332.479,3.524a2.253,2.253,0,0,1,.9-2.956,2.134,2.134,0,0,1,2.887.92l9.654,19.533,9.654-19.533a2.134,2.134,0,0,1,2.887-.92,2.253,2.253,0,0,1,.9,2.956l-11.168,22.1a2.579,2.579,0,0,1-4.543,0Z"
+                transform="translate(-236.255 -0.235)"
+                fill="#fff"
+              />
+            </g>
+          </g>
+        </svg>
+      </MDBox>
+      {/* AE */}
+      <MDBox
+        alt="Waev AE"
+        zIndex="999"
+        // @ts-ignore
+        sx={{
+          position: 'absolute',
+          animation: `2s ease-out ${fadeInKeyframes()}`,
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={width}
+          height={height}
+          viewBox="0 0 123.336 26.862"
+        >
+          <defs>
+            <clipPath id="clip-path">
+              <rect
+                id="Rectangle_1"
+                data-name="Rectangle 1"
+                width="123.336"
+                height="26.862"
+                fill="#fff"
+              />
+            </clipPath>
+          </defs>
+          <g id="logo-1" transform="translate(0 -0.001)">
+            <g
+              id="Group_1"
+              data-name="Group 1"
+              transform="translate(0 0.001)"
+              clipPath="url(#clip-path)"
+            >
+              <path
+                id="Path_3"
+                data-name="Path 3"
+                d="M203.32,22.44H190.344a7.485,7.485,0,0,1-7.8-7.747V12.938a7.486,7.486,0,0,1,7.8-7.748H197.7a3.423,3.423,0,0,1,3.7,3.314,3.387,3.387,0,0,1-3.7,3.265h-9.21a2.144,2.144,0,1,0,0,4.288h9.21c4.873,0,8.089-3.362,8.089-7.553S202.575.9,197.7.9h-7.456a11.711,11.711,0,0,0-9.307,4.19A9.267,9.267,0,0,0,173.045.9H159.788a2.163,2.163,0,0,0-2.144,2.144,2.163,2.163,0,0,0,2.144,2.144h13.257a4.963,4.963,0,0,1,5.165,5.263v8.43a3.492,3.492,0,0,1-3.46,3.557H164.128a3.533,3.533,0,0,1,0-7.065h9.258a2.144,2.144,0,0,0,0-4.288h-9.258a7.677,7.677,0,0,0-7.845,7.8,7.717,7.717,0,0,0,7.845,7.845h10.623a7.52,7.52,0,0,0,6.627-3.655,11.72,11.72,0,0,0,8.868,3.655H203.32a2.144,2.144,0,1,0,0-4.288"
+                transform="translate(-111.13 -0.642)"
+                fill="#fff"
+              />
+            </g>
+          </g>
+        </svg>
+      </MDBox>
+    </MDBox>
+  );
+};

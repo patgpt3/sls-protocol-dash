@@ -1,0 +1,16 @@
+FROM node:18
+
+# Build Args
+ARG environment=staging
+
+# set the working directory
+WORKDIR /usr/src/app
+
+# copy over the context
+COPY . .
+
+# install the dependencies
+RUN npm install --legacy-peer-deps && npm install -g serve && npm run build:$environment
+
+# run the server
+CMD ["serve", "-s", "build"]

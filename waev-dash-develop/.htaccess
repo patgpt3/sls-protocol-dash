@@ -1,0 +1,12 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^dashboard\.waev-staging\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dashboard\.waev-staging\.com$
+RewriteRule ^dashboards\/?(.*)$ "https\:\/\/dashboard\.waev-staging\.com\/" [R=301,L]
+RewriteRule ^data\/?(.*)$ "https\:\/\/dashboard\.waev-staging\.com\/" [R=301,L]
+RewriteRule ^home\/?(.*)$ "https\:\/\/dashboard\.waev-staging\.com\/" [R=301,L]
+RewriteRule ^usage\/?(.*)$ "https\:\/\/dashboard\.waev-staging\.com\/" [R=301,L]
+RewriteRule ^deployments\/?(.*)$ "https\:\/\/dashboard\.waev-staging\.com\/" [R=301,L]
+

@@ -1,0 +1,1364 @@
+{
+  "admin_panel.header.title": [
+    {
+      "type": 0,
+      "value": "Admin Panel"
+    }
+  ],
+  "admin_panel.subheader.title": [
+    {
+      "type": 0,
+      "value": "Register Users"
+    }
+  ],
+  "create_records.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "create_records.button.import": [
+    {
+      "type": 0,
+      "value": "Import"
+    }
+  ],
+  "create_records.button.submit": [
+    {
+      "type": 0,
+      "value": "Submit"
+    }
+  ],
+  "create_records.button.template": [
+    {
+      "type": 0,
+      "value": "Download Template"
+    }
+  ],
+  "create_records.button.upload": [
+    {
+      "type": 0,
+      "value": "Add from CSV"
+    }
+  ],
+  "create_records.consent.title": [
+    {
+      "type": 0,
+      "value": "Consent Fields"
+    }
+  ],
+  "create_records.csv_data.accepted_values_validation": [
+    {
+      "type": 0,
+      "value": "The accepted values are: 1, 0, true or false."
+    }
+  ],
+  "create_records.csv_data.column_view": [
+    {
+      "type": 0,
+      "value": "Column View"
+    }
+  ],
+  "create_records.csv_data.header.no_value": [
+    {
+      "type": 0,
+      "value": "No value"
+    }
+  ],
+  "create_records.csv_data.no_records": [
+    {
+      "type": 0,
+      "value": "No Records Found In CSV File."
+    }
+  ],
+  "create_records.csv_data.required_validation": [
+    {
+      "type": 0,
+      "value": "records do not have a value for the required"
+    }
+  ],
+  "create_records.csv_data.row_view": [
+    {
+      "type": 0,
+      "value": "Row View"
+    }
+  ],
+  "create_records.csv_data.text.anon": [
+    {
+      "type": 0,
+      "value": "Anon"
+    }
+  ],
+  "create_records.csv_data.text.consent": [
+    {
+      "type": 0,
+      "value": "Consent"
+    }
+  ],
+  "create_records.csv_data.text.field": [
+    {
+      "type": 0,
+      "value": "Field"
+    }
+  ],
+  "create_records.csv_data.text.fields": [
+    {
+      "type": 0,
+      "value": "Fields"
+    }
+  ],
+  "create_records.csv_data.text.not_in_config": [
+    {
+      "type": 0,
+      "value": "Not In Config"
+    }
+  ],
+  "create_records.csv_data.text.private": [
+    {
+      "type": 0,
+      "value": "Private"
+    }
+  ],
+  "create_records.csv_data.text.public": [
+    {
+      "type": 0,
+      "value": "Public"
+    }
+  ],
+  "create_records.csv_data.text.user": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "create_records.csv_data.unaccepted_values_validation1": [
+    {
+      "type": 0,
+      "value": "consent field value is unsupported and will be ignored during import."
+    }
+  ],
+  "create_records.csv_data.unaccepted_values_validation2": [
+    {
+      "type": 0,
+      "value": "consent field values are unsupported and will be ignored during import."
+    }
+  ],
+  "create_records.fields.title": [
+    {
+      "type": 0,
+      "value": "Data Fields"
+    }
+  ],
+  "create_records.header.placeholder": [
+    {
+      "type": 0,
+      "value": "No Deployments"
+    }
+  ],
+  "create_records.header.title": [
+    {
+      "type": 0,
+      "value": "Create Records"
+    }
+  ],
+  "create_records.import.bullet1": [
+    {
+      "type": 0,
+      "value": "Use the “Download Template” button to download a template for this deployment."
+    }
+  ],
+  "create_records.import.bullet2": [
+    {
+      "type": 0,
+      "value": "Create the CSV you’d like to upload, so that it matches the template provided. It must be a comma “,” delimited file and we do not currently support semicolon delimited “;” files. Column order does not matter but properly named headers are required and any lines of data missing a User ID “uuid” will be omitted. Any fields containing a comma must be quote wrapped."
+    }
+  ],
+  "create_records.import.bullet3": [
+    {
+      "type": 0,
+      "value": "To set consent field values, use a value of 1, 0, true or false. If no value is provided no changes will be made to the consent field for that record."
+    }
+  ],
+  "create_records.import.bullet4": [
+    {
+      "type": 0,
+      "value": "Upload the CSV you created using the “Add from CSV” button."
+    }
+  ],
+  "create_records.import.bullet5": [
+    {
+      "type": 0,
+      "value": "Review the data preview to ensure the file is properly formatted and the data displays correctly in the preview. If revisions are needed click the “Cancel” button and repeat the process."
+    }
+  ],
+  "create_records.import.bullet6": [
+    {
+      "type": 0,
+      "value": "Click the “Import” button to import all records in the uploaded file. Please note that this action is permanent and cannot be undone."
+    }
+  ],
+  "create_records.import.bullet7": [
+    {
+      "type": 0,
+      "value": "User ID field value is required. Only the records that have a value for this field can be imported."
+    }
+  ],
+  "create_records.import.header": [
+    {
+      "type": 0,
+      "value": "Data Import"
+    }
+  ],
+  "create_records.import.text": [
+    {
+      "type": 0,
+      "value": "You can import records in bulk via CSV file using the process below:"
+    }
+  ],
+  "create_records.placeholder.no_active": [
+    {
+      "type": 0,
+      "value": "No Active Opt-Ins"
+    }
+  ],
+  "create_records.placeholder.no_flags": [
+    {
+      "type": 0,
+      "value": "No Opt-Ins Configured"
+    }
+  ],
+  "create_records.select.false": [
+    {
+      "type": 0,
+      "value": "False"
+    }
+  ],
+  "create_records.select.true": [
+    {
+      "type": 0,
+      "value": "True"
+    }
+  ],
+  "create_records.tab1": [
+    {
+      "type": 0,
+      "value": "Single Records"
+    }
+  ],
+  "create_records.tab2": [
+    {
+      "type": 0,
+      "value": "Bulk Import"
+    }
+  ],
+  "create_records.tooltip.private_field": [
+    {
+      "type": 0,
+      "value": "Private Field"
+    }
+  ],
+  "create_records.tooltip.private_user_field": [
+    {
+      "type": 0,
+      "value": "User Field (Private)"
+    }
+  ],
+  "create_records.tooltip.public_field": [
+    {
+      "type": 0,
+      "value": "Public Field"
+    }
+  ],
+  "create_records.tooltip.public_user_field": [
+    {
+      "type": 0,
+      "value": "User Field (Public)"
+    }
+  ],
+  "deployments.accesses.card.api_keys": [
+    {
+      "type": 0,
+      "value": "API Keys"
+    }
+  ],
+  "deployments.accesses.card.no_configs": [
+    {
+      "type": 0,
+      "value": "No Data Configurations"
+    }
+  ],
+  "deployments.accesses.header.api_key": [
+    {
+      "type": 0,
+      "value": "API Key"
+    }
+  ],
+  "deployments.accesses.header.delete.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "deployments.accesses.header.delete.description": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to remove this API key?"
+    }
+  ],
+  "deployments.accesses.header.delete.title": [
+    {
+      "type": 0,
+      "value": "Delete API Key?"
+    }
+  ],
+  "deployments.accesses.header.delete.yes": [
+    {
+      "type": 0,
+      "value": "Yes"
+    }
+  ],
+  "deployments.accesses.header.deployment_id": [
+    {
+      "type": 0,
+      "value": "Deployment ID"
+    }
+  ],
+  "deployments.accesses.no_api_keys": [
+    {
+      "type": 0,
+      "value": "No API Keys"
+    }
+  ],
+  "deployments.accesses.no_keys_created": [
+    {
+      "type": 0,
+      "value": "No API Keys Created"
+    }
+  ],
+  "deployments.bulk_load.body": [
+    {
+      "type": 0,
+      "value": "Some sort of bulk data load tool."
+    }
+  ],
+  "deployments.bulk_load.title": [
+    {
+      "type": 0,
+      "value": "Bulk Load Data"
+    }
+  ],
+  "deployments.code.body": [
+    {
+      "type": 0,
+      "value": "Display deployment code and endpoints."
+    }
+  ],
+  "deployments.code.title": [
+    {
+      "type": 0,
+      "value": "Code + API Endpoints"
+    }
+  ],
+  "deployments.data_ingest.description.tooltip": [
+    {
+      "type": 0,
+      "value": "The User ID field is the unique field to each user in your deployment, such as an email"
+    }
+  ],
+  "deployments.data_ingest.duplicate_field": [
+    {
+      "type": 0,
+      "value": "Duplicate field found between anon and private fields..."
+    }
+  ],
+  "deployments.data_ingest.form.label": [
+    {
+      "type": 0,
+      "value": "User ID Field Name"
+    }
+  ],
+  "deployments.data_ingest.info_card.title": [
+    {
+      "type": 0,
+      "value": "Data Ingest"
+    }
+  ],
+  "deployments.data_ingest.no_configurations": [
+    {
+      "type": 0,
+      "value": "No Data Configurations"
+    }
+  ],
+  "deployments.data_ingest.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "deployments.data_ingest.step.click": [
+    {
+      "type": 0,
+      "value": "Click"
+    }
+  ],
+  "deployments.data_ingest.step.define": [
+    {
+      "type": 0,
+      "value": "to define which field is the User ID Field."
+    }
+  ],
+  "deployments.data_ingest.step.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate field found between anon and private fields..."
+    }
+  ],
+  "deployments.data_ingest.step.explanation": [
+    {
+      "type": 0,
+      "value": "(You can adjust this later)"
+    }
+  ],
+  "deployments.data_ingest.step.field.label": [
+    {
+      "type": 0,
+      "value": "User ID Field Name"
+    }
+  ],
+  "deployments.data_ingest.step.required": [
+    {
+      "type": 0,
+      "value": "Naming a User ID Field is required."
+    }
+  ],
+  "deployments.data_ingest.step.switch": [
+    {
+      "type": 0,
+      "value": "Ingest All Fields"
+    }
+  ],
+  "deployments.data_ingest.step.title": [
+    {
+      "type": 0,
+      "value": "Data Ingest"
+    }
+  ],
+  "deployments.data_ingest.step.tooltip": [
+    {
+      "type": 0,
+      "value": "The User ID field is the unique field to each user in your deployment, such as an email"
+    }
+  ],
+  "deployments.data_ingest.success.title": [
+    {
+      "type": 0,
+      "value": "Success"
+    }
+  ],
+  "deployments.data_ingest.to_define": [
+    {
+      "type": 0,
+      "value": "to define which field is the User ID Field."
+    }
+  ],
+  "deployments.data_ingest.toggle": [
+    {
+      "type": 0,
+      "value": "Ingest All Fields"
+    }
+  ],
+  "deployments.data_ingest.update.message": [
+    {
+      "type": 0,
+      "value": "Deployment Updated"
+    }
+  ],
+  "deployments.data_ingest.uuid_required": [
+    {
+      "type": 0,
+      "value": "Naming a User ID Field is required."
+    }
+  ],
+  "deployments.data_rules.body": [
+    {
+      "type": 0,
+      "value": "To start this will probably be something basic. Longer term will probably be a library you can pick and choose from. For MVP it probably lists a few standard smart contracts we have like Opt-in, 3rd party data sharing. We'd then need to define what fields are used as inputs like location and opt-in flag."
+    }
+  ],
+  "deployments.data_rules.step.body": [
+    {
+      "type": 0,
+      "value": "What's the name of the Deployment?"
+    }
+  ],
+  "deployments.data_rules.step.name": [
+    {
+      "type": 0,
+      "value": "Deployment Name"
+    }
+  ],
+  "deployments.data_rules.step.title": [
+    {
+      "type": 0,
+      "value": "Let's start with the basic information"
+    }
+  ],
+  "deployments.data_rules.title": [
+    {
+      "type": 0,
+      "value": "Data Rules (Smart Contracts)"
+    }
+  ],
+  "deployments.dropdown.label": [
+    {
+      "type": 0,
+      "value": "Select a Deployment"
+    }
+  ],
+  "deployments.groups_access.titleWithNoOrgGroups": [
+    {
+      "type": 0,
+      "value": "All Shared Access Groups"
+    }
+  ],
+  "deployments.groups_access.titleWithOrgGroups": [
+    {
+      "type": 0,
+      "value": "All Other Shared Access Groups"
+    }
+  ],
+  "deployments.header.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "deployments.header.create.title": [
+    {
+      "type": 0,
+      "value": "Create A Deployment"
+    }
+  ],
+  "deployments.header.delete.description1": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to delete"
+    }
+  ],
+  "deployments.header.delete.description2": [
+    {
+      "type": 0,
+      "value": "this deployment"
+    }
+  ],
+  "deployments.header.delete.title": [
+    {
+      "type": 0,
+      "value": "Delete Deployment?"
+    }
+  ],
+  "deployments.header.delete.yes": [
+    {
+      "type": 0,
+      "value": "Yes"
+    }
+  ],
+  "deployments.header.no_deployments": [
+    {
+      "type": 0,
+      "value": "No Deployments"
+    }
+  ],
+  "deployments.header.title": [
+    {
+      "type": 0,
+      "value": "Deployments"
+    }
+  ],
+  "deployments.header.updating": [
+    {
+      "type": 0,
+      "value": "Updating Deployment"
+    }
+  ],
+  "deployments.ingest.private_fields.title": [
+    {
+      "type": 0,
+      "value": "Private Fields"
+    }
+  ],
+  "deployments.ingest_fields.field_name": [
+    {
+      "type": 0,
+      "value": "Field Name"
+    }
+  ],
+  "deployments.ingest_fields.title": [
+    {
+      "type": 0,
+      "value": "Fields"
+    }
+  ],
+  "deployments.ingest_fields.tooltip.add": [
+    {
+      "type": 0,
+      "value": "Add"
+    }
+  ],
+  "deployments.ingest_fields.tooltip.set": [
+    {
+      "type": 0,
+      "value": "Set as User ID field"
+    }
+  ],
+  "deployments.keys.body": [
+    {
+      "type": 0,
+      "value": "This is where keys can be created for internally at the client's company. Maybe this lists users associated with the company? Maybe it's an add access. For MVP these will be all or nothing. Do these even end up being keys actually shown in the UI or do we just custody?"
+    }
+  ],
+  "deployments.keys.title": [
+    {
+      "type": 0,
+      "value": "Keys / Access"
+    }
+  ],
+  "deployments.list.placeholder": [
+    {
+      "type": 0,
+      "value": "No Deployments"
+    }
+  ],
+  "deployments.list.title": [
+    {
+      "type": 0,
+      "value": "Deployments"
+    }
+  ],
+  "deployments.opt-in_flags.step.body": [
+    {
+      "type": 0,
+      "value": "(Yup. You can do this later too.)"
+    }
+  ],
+  "deployments.opt-in_flags.step.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate field found between anon and private fields..."
+    }
+  ],
+  "deployments.opt-in_flags.step.title": [
+    {
+      "type": 0,
+      "value": "Opt-In Fields"
+    }
+  ],
+  "deployments.organizations.placeholder": [
+    {
+      "type": 0,
+      "value": "No Organizations Found."
+    }
+  ],
+  "deployments.shared_access.placeholder": [
+    {
+      "type": 0,
+      "value": "No Shared Accesses"
+    }
+  ],
+  "deployments.shared_access.title": [
+    {
+      "type": 0,
+      "value": "Shared Accesses"
+    }
+  ],
+  "deployments.wizard.button.back": [
+    {
+      "type": 0,
+      "value": "back"
+    }
+  ],
+  "deployments.wizard.button.cancel": [
+    {
+      "type": 0,
+      "value": "cancel"
+    }
+  ],
+  "deployments.wizard.button.create": [
+    {
+      "type": 0,
+      "value": "create"
+    }
+  ],
+  "deployments.wizard.button.next": [
+    {
+      "type": 0,
+      "value": "next"
+    }
+  ],
+  "deployments.wizard.name_step.body": [
+    {
+      "type": 0,
+      "value": "What's the name of the Deployment?"
+    }
+  ],
+  "deployments.wizard.name_step.label": [
+    {
+      "type": 0,
+      "value": "Deployment Name"
+    }
+  ],
+  "deployments.wizard.name_step.title": [
+    {
+      "type": 0,
+      "value": "Let's start with the basic information"
+    }
+  ],
+  "documentation.header.title": [
+    {
+      "type": 0,
+      "value": "Documentation"
+    }
+  ],
+  "documentation.imlementation.title": [
+    {
+      "type": 0,
+      "value": "Implementation"
+    }
+  ],
+  "documentation.integrations.text": [
+    {
+      "type": 0,
+      "value": "Easily ingest data across platforms"
+    }
+  ],
+  "documentation.integrations.title": [
+    {
+      "type": 0,
+      "value": "Waev Integrations"
+    }
+  ],
+  "documentation.link.records.page": [
+    {
+      "type": 0,
+      "value": "Waev Records Page"
+    }
+  ],
+  "documentation.viewing.records.text": [
+    {
+      "type": 0,
+      "value": "To see if the form is ingesting properly, you can visit your"
+    }
+  ],
+  "documentation.viewing.records.title": [
+    {
+      "type": 0,
+      "value": "Viewing Records"
+    }
+  ],
+  "documentation.web.docs.bullet1.part1": [
+    {
+      "type": 0,
+      "value": "Add the"
+    }
+  ],
+  "documentation.web.docs.bullet1.part2": [
+    {
+      "type": 0,
+      "value": "file to your site in a directory that is easily accessible."
+    }
+  ],
+  "documentation.web.docs.bullet2.part1": [
+    {
+      "type": 0,
+      "value": "Add the script to your html, such as"
+    }
+  ],
+  "documentation.web.docs.bullet2.part2": [
+    {
+      "type": 0,
+      "value": "OR just add the script to your html with the proper CDN url for the desired package, such as"
+    }
+  ],
+  "documentation.web.docs.bullet3.part1": [
+    {
+      "type": 0,
+      "value": "Create/find your Api Key and Deployment Id on the"
+    }
+  ],
+  "documentation.web.docs.bullet3.part2": [
+    {
+      "type": 0,
+      "value": "Be sure that your configurations are correct on this page as well."
+    }
+  ],
+  "documentation.web.docs.bullet4": [
+    {
+      "type": 0,
+      "value": "For the form you wish to ingest, find the html's form id. (Ex."
+    }
+  ],
+  "documentation.web.docs.bullet5": [
+    {
+      "type": 0,
+      "value": "In another script tag in your html, instantiate the Waev class with the Deployment Id, Api Key, and Form ID."
+    }
+  ],
+  "documentation.web.docs.deployments.link": [
+    {
+      "type": 0,
+      "value": "Waev Deployments Page"
+    }
+  ],
+  "documentation.web.docs.description": [
+    {
+      "type": 0,
+      "value": "For standard forms, in order to start ingesting data through Waev:"
+    }
+  ],
+  "documentation.web.integration": [
+    {
+      "type": 0,
+      "value": "Web Integration"
+    }
+  ],
+  "forgot_password.description": [
+    {
+      "type": 0,
+      "value": "Have a new QR Code sent to your email."
+    }
+  ],
+  "forgot_password.error.message": [
+    {
+      "type": 0,
+      "value": "Something went wrong with the password request. Try again later."
+    }
+  ],
+  "forgot_password.error.title": [
+    {
+      "type": 0,
+      "value": "Whoops!"
+    }
+  ],
+  "forgot_password.find": [
+    {
+      "type": 0,
+      "value": "Did you find it?"
+    }
+  ],
+  "forgot_password.invalid_email": [
+    {
+      "type": 0,
+      "value": "Email is invalid"
+    }
+  ],
+  "forgot_password.label.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "forgot_password.sent_request": [
+    {
+      "type": 0,
+      "value": "Send Request"
+    }
+  ],
+  "forgot_password.sign_in": [
+    {
+      "type": 0,
+      "value": "Sign In"
+    }
+  ],
+  "forgot_password.success.content": [
+    {
+      "type": 0,
+      "value": "If the email was in the system, a request has been sent."
+    }
+  ],
+  "forgot_password.success.title": [
+    {
+      "type": 0,
+      "value": "Success!"
+    }
+  ],
+  "forgot_password.title": [
+    {
+      "type": 0,
+      "value": "Forgot Password?"
+    }
+  ],
+  "format_data.denied.text": [
+    {
+      "type": 0,
+      "value": "Access Denied"
+    }
+  ],
+  "format_data.encrypted.text": [
+    {
+      "type": 0,
+      "value": "Encrypted"
+    }
+  ],
+  "format_data.failedFetch.text": [
+    {
+      "type": 0,
+      "value": "Failed to Fetch"
+    }
+  ],
+  "home.hello": [
+    {
+      "type": 0,
+      "value": "Hello."
+    }
+  ],
+  "lost.part1": [
+    {
+      "type": 0,
+      "value": "Oh! Hey..."
+    }
+  ],
+  "lost.part2": [
+    {
+      "type": 0,
+      "value": "Are you lost?"
+    }
+  ],
+  "permissions.dropdown.enter.email": [
+    {
+      "type": 0,
+      "value": "Enter an Email"
+    }
+  ],
+  "permissions.selector.entity": [
+    {
+      "type": 0,
+      "value": "entity"
+    }
+  ],
+  "permissions.selector.option.admin": [
+    {
+      "type": 0,
+      "value": "Admin"
+    }
+  ],
+  "permissions.selector.option.read": [
+    {
+      "type": 0,
+      "value": "Read"
+    }
+  ],
+  "permissions.selector.option.write": [
+    {
+      "type": 0,
+      "value": "Write"
+    }
+  ],
+  "permissions.selector.tooltip1.part1": [
+    {
+      "type": 0,
+      "value": "The admin permission will allow all, EXCEPT removing the owner from or deleting the"
+    }
+  ],
+  "permissions.selector.tooltip1.part2": [
+    {
+      "type": 0,
+      "value": "Check this if they need to be able to add users."
+    }
+  ],
+  "permissions.selector.tooltip2": [
+    {
+      "type": 0,
+      "value": "The read permission allows the user to see the permissions of other users in this"
+    }
+  ],
+  "permissions.selector.tooltip3.part1": [
+    {
+      "type": 0,
+      "value": "The write permission includes read, but will also allow them to make changes to"
+    }
+  ],
+  "permissions.selector.tooltip3.part2": [
+    {
+      "type": 0,
+      "value": "but does not allow them to add users"
+    }
+  ],
+  "records.tooltip.expand": [
+    {
+      "type": 0,
+      "value": "Get Decrypted Record"
+    }
+  ],
+  "records.tooltip.refetch": [
+    {
+      "type": 0,
+      "value": "Try Refetching"
+    }
+  ],
+  "register.already.account": [
+    {
+      "type": 0,
+      "value": "Already have an account?"
+    }
+  ],
+  "register.check.box.part1": [
+    {
+      "type": 0,
+      "value": "By checking this box and clicking "
+    }
+  ],
+  "register.check.box.part2": [
+    {
+      "type": 0,
+      "value": "”SIGN UP”"
+    }
+  ],
+  "register.check.box.part3": [
+    {
+      "type": 0,
+      "value": "I acknowledge that I read and understand the "
+    }
+  ],
+  "register.check.box.part4": [
+    {
+      "type": 0,
+      "value": "Waev Terms of Use"
+    }
+  ],
+  "register.check.box.part5": [
+    {
+      "type": 0,
+      "value": "including the "
+    }
+  ],
+  "register.check.box.part6": [
+    {
+      "type": 0,
+      "value": "Privacy Policy"
+    }
+  ],
+  "register.check.box.part7": [
+    {
+      "type": 0,
+      "value": "and agree to be bound by both."
+    }
+  ],
+  "register.enter.email": [
+    {
+      "type": 0,
+      "value": "Enter your email and password to register"
+    }
+  ],
+  "register.error.message": [
+    {
+      "type": 0,
+      "value": "Something went wrong with registration. Try again later."
+    }
+  ],
+  "register.error.title": [
+    {
+      "type": 0,
+      "value": "Whoops!"
+    }
+  ],
+  "register.first_name_required": [
+    {
+      "type": 0,
+      "value": "First name required"
+    }
+  ],
+  "register.invalid.email": [
+    {
+      "type": 0,
+      "value": "Email is invalid"
+    }
+  ],
+  "register.join.us": [
+    {
+      "type": 0,
+      "value": "Join us today"
+    }
+  ],
+  "register.label.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "register.label.first_name": [
+    {
+      "type": 0,
+      "value": "First Name"
+    }
+  ],
+  "register.label.last_name": [
+    {
+      "type": 0,
+      "value": "Last Name"
+    }
+  ],
+  "register.last_name_required": [
+    {
+      "type": 0,
+      "value": "Last name required"
+    }
+  ],
+  "register.sign.in": [
+    {
+      "type": 0,
+      "value": "Sign In"
+    }
+  ],
+  "register.sign.up": [
+    {
+      "type": 0,
+      "value": "sign up"
+    }
+  ],
+  "register.success.content": [
+    {
+      "type": 0,
+      "value": "An email has been sent."
+    }
+  ],
+  "register.success.title": [
+    {
+      "type": 0,
+      "value": "Success!"
+    }
+  ],
+  "renew_token.button": [
+    {
+      "type": 0,
+      "value": "renew"
+    }
+  ],
+  "renew_token.invalid": [
+    {
+      "type": 0,
+      "value": "Token is invalid for"
+    }
+  ],
+  "renew_token.label.TOTP": [
+    {
+      "type": 0,
+      "value": "6-Digit TOTP Token"
+    }
+  ],
+  "renew_token.logout": [
+    {
+      "type": 0,
+      "value": "Log Out?"
+    }
+  ],
+  "renew_token.title": [
+    {
+      "type": 0,
+      "value": "Session Expiring Soon"
+    }
+  ],
+  "setting.organization_card.confirmation.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "setting.organization_card.confirmation.description1": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to delete"
+    }
+  ],
+  "setting.organization_card.confirmation.description2": [
+    {
+      "type": 0,
+      "value": "this organization"
+    }
+  ],
+  "setting.organization_card.confirmation.title": [
+    {
+      "type": 0,
+      "value": "Delete Organization?"
+    }
+  ],
+  "setting.organization_card.confirmation.yes": [
+    {
+      "type": 0,
+      "value": "Yes"
+    }
+  ],
+  "setting.organization_card.tooltip.save": [
+    {
+      "type": 0,
+      "value": "Save"
+    }
+  ],
+  "settings.button.add": [
+    {
+      "type": 0,
+      "value": "Add New"
+    }
+  ],
+  "settings.deployments_list.associated_deployments": [
+    {
+      "type": 0,
+      "value": "Associated Deployments"
+    }
+  ],
+  "settings.deployments_list.no_deployments": [
+    {
+      "type": 0,
+      "value": "No Deployments"
+    }
+  ],
+  "settings.enrolled_users.no_users": [
+    {
+      "type": 0,
+      "value": "No Enrolled Users"
+    }
+  ],
+  "settings.enrolled_users.title": [
+    {
+      "type": 0,
+      "value": "Enrolled Users"
+    }
+  ],
+  "settings.organization_card.delete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "settings.organization_card.edit": [
+    {
+      "type": 0,
+      "value": "Edit"
+    }
+  ],
+  "settings.organization_card.enrolled_user": [
+    {
+      "type": 0,
+      "value": "Enrolled User"
+    }
+  ],
+  "settings.organization_dropdown.label": [
+    {
+      "type": 0,
+      "value": "Select an Organization"
+    }
+  ],
+  "settings.subheader.subtitle": [
+    {
+      "type": 0,
+      "value": "Manage your organization here!"
+    }
+  ],
+  "settings.subheader.title": [
+    {
+      "type": 0,
+      "value": "Your Organization"
+    }
+  ],
+  "sign_in.forget_password": [
+    {
+      "type": 0,
+      "value": "Forget Password?"
+    }
+  ],
+  "sign_in.label.TOTP": [
+    {
+      "type": 0,
+      "value": "6-Digit TOTP Token"
+    }
+  ],
+  "sign_in.label.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "sign_in.no_account": [
+    {
+      "type": 0,
+      "value": "Don't have an account?"
+    }
+  ],
+  "sign_in.recover_account": [
+    {
+      "type": 0,
+      "value": "Recover Account"
+    }
+  ],
+  "sign_in.sign_up": [
+    {
+      "type": 0,
+      "value": "Sign up"
+    }
+  ],
+  "sign_in.submit.button": [
+    {
+      "type": 0,
+      "value": "sign in"
+    }
+  ],
+  "sign_in.waev.title": [
+    {
+      "type": 0,
+      "value": "Waev Dashboard"
+    }
+  ],
+  "splash.error.content": [
+    {
+      "type": 0,
+      "value": "There was a problem signing in."
+    }
+  ],
+  "splash.login.success.content": [
+    {
+      "type": 0,
+      "value": "You've been logged in!"
+    }
+  ],
+  "splash.register.error.content": [
+    {
+      "type": 0,
+      "value": "There was a problem registering..."
+    }
+  ],
+  "splash.register.error.title": [
+    {
+      "type": 0,
+      "value": "Registration Error"
+    }
+  ],
+  "splash.register.success.content": [
+    {
+      "type": 0,
+      "value": "Check your email to get the Authenticator QR Code to retrieve the TOTP."
+    }
+  ],
+  "splash.register.success.title": [
+    {
+      "type": 0,
+      "value": "You are registered!"
+    }
+  ],
+  "splash.waev.title": [
+    {
+      "type": 0,
+      "value": "Waev Dashboard"
+    }
+  ],
+  "view_data.subtitle": [
+    {
+      "type": 0,
+      "value": "Select the data you'd like to view."
+    }
+  ],
+  "view_data.title": [
+    {
+      "type": 0,
+      "value": "View Waev Data"
+    }
+  ]
+}
