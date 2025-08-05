@@ -1,24 +1,12 @@
 {
   "version": 2,
   "name": "sls-protocol-dash",
-  "builds": [
+  "buildCommand": "cd waev-dash-develop && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "waev-dash-develop/build",
+  "routes": [
     {
-      "src": "waev-dash-develop/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "waev-dash-develop/build",
-        "installCommand": "cd waev-dash-develop && npm install --legacy-peer-deps",
-        "buildCommand": "cd waev-dash-develop && npm run build"
-      }
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
-  "env": {
-    "NPM_FLAGS": "--legacy-peer-deps"
-  }
+  ]
 }
