@@ -106,25 +106,23 @@ export function RenewToken({ onSuccess }: RenewTokenProps): JSX.Element {
                   : setTotp('')
               }
               onPaste={handlePaste}
-            >
-                <MDInput
-                  inputProps={{
-                    'data-testid': 'totp-input',
-                  }}
-                  label={intl.formatMessage(messages.totp)}
-                  fullWidth
-                  sx={{
-                    'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button': {
-                      WebkitAppearance: 'none',
-                      m: 0,
-                    },
-                    'input[type=number] ': {
-                      MozAppearance: 'textfield',
-                    },
-                    input: { textAlign: 'center' },
-                  }}
-                />
-            </InputMask>
+              inputComponent={MDInput}
+              inputProps={{
+                'data-testid': 'totp-input',
+                label: intl.formatMessage(messages.totp),
+                fullWidth: true,
+                sx: {
+                  'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button': {
+                    WebkitAppearance: 'none',
+                    m: 0,
+                  },
+                  'input[type=number] ': {
+                    MozAppearance: 'textfield',
+                  },
+                  input: { textAlign: 'center' },
+                },
+              }}
+            />
           </MDBox>
           {!!isErrorRenewToken && (
             <MDTypography display="block" variant="button" color="error" my={1}>
