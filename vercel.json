@@ -3,10 +3,10 @@
   "name": "sls-protocol-dash",
   "builds": [
     {
-      "src": "package.json",
+      "src": "waev-dash-develop/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "waev-dash-develop/build"
       }
     }
   ],
