@@ -72,7 +72,6 @@
     "@formatjs/cli": "^5.1.10",
     "@testing-library/jest-dom": "5.16.2",
     "@testing-library/react": "12.1.2",
-    "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "13.5.0",
     "@types/chroma-js": "2.1.3",
     "@types/dropzone": "5.7.4",
