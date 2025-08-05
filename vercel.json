@@ -1,51 +1,51 @@
 {
-  "version": 2,
-  "name": "sls-protocol-dash",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/static/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "@react_app_api_url",
-    "REACT_APP_ACCESS_SERVER_URL": "@react_app_access_server_url",
-    "REACT_APP_STREAM_API_URL": "@react_app_stream_api_url",
-    "REACT_APP_MIDDLEWARE_API_URL": "@react_app_middleware_api_url",
-    "REACT_APP_SENDGRID_API_KEY": "@react_app_sendgrid_api_key",
-    "REACT_APP_AWS_REGION": "@react_app_aws_region",
-    "REACT_APP_AWS_S3_BUCKET": "@react_app_aws_s3_bucket"
-  }
-} 
+    "version":  2,
+    "name":  "sls-protocol-dash",
+    "builds":  [
+                   {
+                       "src":  "package.json",
+                       "use":  "@vercel/static-build",
+                       "config":  {
+                                      "distDir":  "build"
+                                  }
+                   }
+               ],
+    "routes":  [
+                   {
+                       "src":  "/static/(.*)",
+                       "dest":  "/static/$1"
+                   },
+                   {
+                       "src":  "/favicon.ico",
+                       "dest":  "/favicon.ico"
+                   },
+                   {
+                       "src":  "/manifest.json",
+                       "dest":  "/manifest.json"
+                   },
+                   {
+                       "src":  "/(.*)",
+                       "dest":  "/index.html"
+                   }
+               ],
+    "headers":  [
+                    {
+                        "source":  "/static/(.*)",
+                        "headers":  [
+                                        {
+                                            "key":  "Cache-Control",
+                                            "value":  "public, max-age=31536000, immutable"
+                                        }
+                                    ]
+                    }
+                ],
+    "env":  {
+                "REACT_APP_API_URL":  "https://sls-api-0803-1400.herokuapp.com",
+                "REACT_APP_ACCESS_SERVER_URL":  "https://sls-access-0803-1400.herokuapp.com",
+                "REACT_APP_STREAM_API_URL":  "https://sls-stream-0803-1400.herokuapp.com",
+                "REACT_APP_MIDDLEWARE_API_URL":  "https://sls-middleware-0803-1400.herokuapp.com",
+                "REACT_APP_SENDGRID_API_KEY":  "@react_app_sendgrid_api_key",
+                "REACT_APP_AWS_REGION":  "@react_app_aws_region",
+                "REACT_APP_AWS_S3_BUCKET":  "@react_app_aws_s3_bucket"
+            }
+}
