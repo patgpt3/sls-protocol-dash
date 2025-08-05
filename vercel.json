@@ -7,7 +7,8 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "waev-dash-develop/build",
-        "installCommand": "npm install --legacy-peer-deps"
+        "installCommand": "cd waev-dash-develop && npm install --legacy-peer-deps",
+        "buildCommand": "cd waev-dash-develop && npm run build"
       }
     }
   ],
