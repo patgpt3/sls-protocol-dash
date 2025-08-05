@@ -6,7 +6,8 @@
       "src": "waev-dash-develop/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "waev-dash-develop/build"
+        "distDir": "waev-dash-develop/build",
+        "installCommand": "npm install --legacy-peer-deps"
       }
     }
   ],
