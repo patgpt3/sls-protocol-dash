@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { forwardRef, ForwardRefExoticComponent } from 'react';
 
 // @mui material components
-import { Box, BoxProps } from '@mui/material';
+import { BoxProps } from '@mui/material';
 
 // Custom styles for MDBox
 import MDBoxRoot from 'components/Elements/MDBox/MDBoxRoot';
