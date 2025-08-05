@@ -1,7 +1,7 @@
-import { forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react';
+import { forwardRef, ForwardRefExoticComponent } from 'react';
 
 // @mui material components
-import { BoxProps } from '@mui/material';
+import { Box, BoxProps } from '@mui/material';
 
 // Custom styles for MDBox
 import MDBoxRoot from 'components/Elements/MDBox/MDBoxRoot';

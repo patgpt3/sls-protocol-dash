@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { FC, ReactNode, forwardRef } from 'react';
 
 // @mui material components

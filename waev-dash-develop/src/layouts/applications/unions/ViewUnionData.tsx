@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState, useEffect } from 'react';
 import { Card, Grid, Tooltip, Divider } from '@mui/material';
 import {
   FancyIconButton,

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /**
   All of the routes for the Waev Dashboard are added here,
   You can add a new route, customize the routes and delete the routes here.

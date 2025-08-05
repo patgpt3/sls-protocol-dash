@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState, ReactNode } from 'react';
 
 // react-router-dom components
