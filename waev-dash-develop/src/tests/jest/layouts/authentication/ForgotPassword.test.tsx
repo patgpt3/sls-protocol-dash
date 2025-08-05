@@ -6,7 +6,7 @@ import {
   render,
   //   waitForElementToBeRemoved,
 } from '@testing-library/react';
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 
 import { AuthContextProvider, ProviderComposer } from 'contexts';
 
@@ -68,7 +68,7 @@ describe('ForgotPassword', () => {
     const emailInputElement = screen.getAllByTestId('forgot-pass-email')[0];
     expect(emailInputElement).not.toBeUndefined();
 
-    const emailValue = faker.internet.email();
+    const emailValue = 'test@example.com';
     await user.type(emailInputElement, emailValue);
     expect(isHasInputValue(emailInputElement, emailValue)).toBeTruthy();
   });
@@ -82,7 +82,7 @@ describe('ForgotPassword', () => {
     const button = await screen.findByRole('button', { name: 'Send Request' });
     expect(button).toHaveProperty('disabled', true);
 
-    const emailValue = faker.name.firstName();
+    const emailValue = 'invalid-email';
     await user.type(emailInputElement, emailValue);
     expect(screen.getByText('Email is invalid')).toBeTruthy();
     expect(screen.getByText('Send Request')).toBeTruthy();
@@ -103,7 +103,7 @@ describe('ForgotPassword', () => {
     expect(sendForgotPassword).not.toBeCalled();
 
     // User Type Email
-    const emailValue = faker.internet.email();
+    const emailValue = 'test@example.com';
     user.type(emailInputElement, emailValue);
 
     // User Click

@@ -1,5 +1,5 @@
 /* eslint-disable testing-library/prefer-screen-queries */
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 import { render, screen } from '@testing-library/react';
 import { Icon } from '@mui/material';
 import { QuickInfoActionCard, QuickInfoActionCardProps } from 'components';
@@ -28,10 +28,10 @@ afterAll(() => {
 describe('QuickInfoActionCard', () => {
   it('[QuickInfoActionCard-1] renders appropriately', async () => {
     const props: QuickInfoActionCardProps = {
-      name: faker.lorem.sentence(2),
-      description: faker.lorem.sentence(5),
+      name: 'Test Name',
+      description: 'Test Description',
       image: <Icon fontSize="medium">person</Icon>,
-      subDescription: faker.lorem.sentence(2),
+      subDescription: 'Test Sub Description',
       color: 'info',
     };
     renderForm(props);
@@ -43,7 +43,7 @@ describe('QuickInfoActionCard', () => {
   });
   it('[QuickInfoActionCard-3] renders required appropriately', async () => {
     const props: QuickInfoActionCardProps = {
-      name: faker.lorem.sentence(2),
+      name: 'Test Name',
       image: <Icon fontSize="medium">person</Icon>,
       color: 'info',
     };
@@ -57,10 +57,10 @@ describe('QuickInfoActionCard', () => {
 
   it('[QuickInfoActionCard-2] renders appropriately', async () => {
     const props: QuickInfoActionCardProps = {
-      name: faker.lorem.sentence(2),
-      description: faker.lorem.sentence(5),
+      name: 'Test Name',
+      description: 'Test Description',
       image: <Icon fontSize="medium">person</Icon>,
-      subDescription: faker.lorem.sentence(2),
+      subDescription: 'Test Sub Description',
       color: 'info',
     };
     renderForm(props);

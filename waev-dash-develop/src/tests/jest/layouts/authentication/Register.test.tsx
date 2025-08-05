@@ -8,7 +8,7 @@ import {
   fireEvent,
   within,
 } from '@testing-library/react';
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 
 import { AuthContextProvider, ProviderComposer } from 'contexts';
 
@@ -81,9 +81,9 @@ describe('Register', () => {
     const emailInputElement = screen.getAllByTestId('register-email')[0];
     expect(emailInputElement).not.toBeUndefined();
 
-    const firstName = faker.name.firstName();
-    const lastName = faker.name.lastName();
-    const emailValue = faker.internet.email();
+    const firstName = 'John';
+    const lastName = 'Doe';
+    const emailValue = 'john.doe@example.com';
 
     user.type(firstNameInputElement, firstName);
     user.type(lastNameInputElement, lastName);
@@ -103,7 +103,7 @@ describe('Register', () => {
     const button = await screen.findByRole('button', { name: 'sign up' });
     expect(button).toHaveProperty('disabled', true);
 
-    const emailValue = faker.name.firstName();
+    const emailValue = 'invalid-email';
     user.type(emailInputElement, emailValue);
     expect(screen.getByText('Email is invalid')).toBeTruthy();
     expect(button).toHaveProperty('disabled', true);
@@ -123,7 +123,7 @@ describe('Register', () => {
     expect((checkbox as any).checked).toBe(false);
 
     // User Type Email
-    const emailValue = faker.internet.email();
+    const emailValue = 'test@example.com';
     user.type(emailInputElement, emailValue);
 
     // User Click

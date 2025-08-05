@@ -8,7 +8,7 @@ import {
   fireEvent,
   //  within
 } from '@testing-library/react';
-import { faker } from '@faker-js/faker';
+// import { faker } from '@faker-js/faker';
 
 import { AuthContextProvider, ProviderComposer } from 'contexts';
 
@@ -74,7 +74,7 @@ describe('SignIn', () => {
     const totpInputElement = screen.getAllByTestId('totp-input')[0];
     expect(totpInputElement).not.toBeUndefined();
 
-    const emailValue = faker.internet.email();
+    const emailValue = 'test@example.com';
 
     user.type(emailInputElement, emailValue);
 
@@ -87,7 +87,7 @@ describe('SignIn', () => {
     const totpInputElement = screen.getAllByTestId('totp-input')[0];
     expect(totpInputElement).not.toBeUndefined();
 
-    const totpBadValue = faker.word.noun();
+    const totpBadValue = 'invalid';
 
     // The input doesn't change.
     fireEvent.change(totpInputElement, { target: { value: totpBadValue } });
@@ -138,7 +138,7 @@ describe('SignIn', () => {
     expect(screen.queryByText('Email is invalid')).toBeFalsy();
 
     // User Type Email
-    const emailValue = faker.internet.email();
+    const emailValue = 'test@example.com';
     user.type(emailInputElement, emailValue);
 
     expect(login).not.toBeCalled();
