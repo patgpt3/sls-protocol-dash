@@ -8,8 +8,6 @@
     "@emotion/react": "11.10.6",
     "@emotion/styled": "11.10.6",
     "@mui/material": "5.15.0",
-    "@react-jvectormap/core": "1.0.2",
-    "@react-jvectormap/world": "1.0.1",
     "@reduxjs/toolkit": "1.9.0",
     "browser-fs-access": "^0.31.1",
     "chroma-js": "2.4.2",
