@@ -1,7 +1,7 @@
 import { useMemo, useEffect, useState } from 'react';
 
 // react-table components
-import { useTable, usePagination, useGlobalFilter, useAsyncDebounce, useSortBy } from 'react-table';
+import { useTable, usePagination, useGlobalFilter, useAsyncDebounce, useSortBy } from '@tanstack/react-table';
 
 // @mui material components
 import {
