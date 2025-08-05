@@ -26,7 +26,7 @@
     "react-scripts": "5.0.0",
     "@tanstack/react-table": "^8.10.0",
     "redux": "4.2.1",
-    "typescript": "4.6.2",
+    "typescript": "4.9.5",
     "uuid": "8.3.2"
   },
   "scripts": {
