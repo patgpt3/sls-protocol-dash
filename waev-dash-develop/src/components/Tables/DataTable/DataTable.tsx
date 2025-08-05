@@ -1,7 +1,7 @@
 import { useMemo, useEffect, useState } from 'react';
 
 // react-table components
-import { useTable, usePagination, useGlobalFilter, useAsyncDebounce, useSortBy } from '@tanstack/react-table';
+import { useTable, usePagination, useGlobalFilter, useAsyncDebounce, useSortBy } from 'react-table';
 
 // @mui material components
 import {
@@ -129,14 +129,14 @@ export function DataTable({
   };
 
   // Render the paginations
-  const renderPagination = pageOptions.map((option: any) => (
+  const renderPagination = Array.from({ length: pageOptions.length }).map((_, index) => (
     <MDPagination
       item
-      key={option}
-      onClick={() => goToPageHandler(Number(option))}
-      active={pageIndex === option}
+      key={index}
+      onClick={() => goToPageHandler(index)}
+      active={index === pageIndex}
     >
-      {option + 1}
+      {index + 1}
     </MDPagination>
   ));
 
@@ -145,7 +145,7 @@ export function DataTable({
     value > pageOptions.length || value < 0 ? goToPageHandler(0) : goToPageHandler(Number(value));
 
   // Customized page options starting from 1
-  const customizedPageOptions = pageOptions.map((option: any) => option + 1);
+  const customizedPageOptions = Array.from({ length: pageOptions.length }).map((_, index) => index + 1);
 
   // Setting value for the pagination input
   const handleInputPaginationValue = ({ target: value }: any) => {
@@ -156,9 +156,9 @@ export function DataTable({
   const [search, setSearch] = useState(globalFilter);
 
   // Search input state handle
-  const onSearchChange = useAsyncDebounce((value) => {
+  const onSearchChange = (value: string) => {
     setGlobalFilter(value || undefined);
-  }, 100);
+  };
 
   // A function that sets the sorted value for the table
   const setSortedValue = (column: any) => {
@@ -190,12 +190,10 @@ export function DataTable({
   }
 
   const onHandleClickNextPage = () => {
-    return goToPageHandler(pageIndex + 1);
-    // return nextPage()
+    return gotoPage(pageIndex + 1);
   };
   const onHandleClickPreviousPage = () => {
-    return goToPageHandler(pageIndex - 1);
-    // return previousPage()
+    return gotoPage(pageIndex - 1);
   };
 
   return (
@@ -295,7 +293,7 @@ export function DataTable({
                   return onRowClick ? (
                     <TableRow
                       hover
-                      onClick={(event: any) => onRowClick(event, row)}
+                      onClick={(event: any) => onRowClick(event, row.original)}
                       {...row.getRowProps()}
                     >
                       {row.cells.map((cell: any) => (
@@ -369,7 +367,7 @@ export function DataTable({
                     <Icon sx={{ fontWeight: 'bold' }}>chevron_left</Icon>
                   </MDPagination>
                 )}
-                {renderPagination.length > 6 ? (
+                {pageOptions.length > 6 ? (
                   <MDBox width="5rem" mx={1}>
                     <MDInput
                       inputProps={{ type: 'number', min: 1, max: customizedPageOptions.length }}
