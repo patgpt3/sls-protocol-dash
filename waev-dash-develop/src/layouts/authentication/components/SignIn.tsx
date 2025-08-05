@@ -145,25 +145,26 @@ export function SignIn({ setPageType }: SignInProps): JSX.Element {
               }
               onPaste={handlePaste}
             >
-              <MDInput
-                // inputProps={{ inputMode: "numeric", pattern: "[0-9]*" }}
-                // TODO(): Remove this dev note.
-                inputProps={{
-                  'data-testid': 'totp-input',
-                }}
-                label={intl.formatMessage(messages.totp)}
-                fullWidth
-                sx={{
-                  'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button': {
-                    WebkitAppearance: 'none',
-                    m: 0,
-                  },
-                  'input[type=number] ': {
-                    MozAppearance: 'textfield',
-                  },
-                  input: { textAlign: 'center' },
-                }}
-              />
+              {(inputProps: any) => (
+                <MDInput
+                  {...inputProps}
+                  inputProps={{
+                    'data-testid': 'totp-input',
+                  }}
+                  label={intl.formatMessage(messages.totp)}
+                  fullWidth
+                  sx={{
+                    'input::-webkit-outer-spin-button, input::-webkit-inner-spin-button': {
+                      WebkitAppearance: 'none',
+                      m: 0,
+                    },
+                    'input[type=number] ': {
+                      MozAppearance: 'textfield',
+                    },
+                    input: { textAlign: 'center' },
+                  }}
+                />
+              )}
             </InputMask>
           </MDBox>
           {/* <MDBox mb={2}>
