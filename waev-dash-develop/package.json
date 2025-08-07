@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Michael Burgess",
   "private": true,
+  "homepage": ".",
   "description": "Waev Dashboard",
   "dependencies": {
     "@emotion/react": "11.10.6",
