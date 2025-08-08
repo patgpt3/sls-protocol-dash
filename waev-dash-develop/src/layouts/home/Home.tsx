@@ -112,15 +112,7 @@ export function Home(): JSX.Element {
             alignItems: 'center',
           }}
         >
-          <SlsLogo
-            width="100%"
-            height="100%"
-            sx={{
-              flex: 1,
-              display: 'flex',
-              flexDirection: 'column-reverse',
-            }}
-          />
+          <SlsLogo width="100%" height="100%" />
           <MDBox flex={1}>
             <MDBox
               position="relative"
