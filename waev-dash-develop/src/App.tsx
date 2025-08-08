@@ -30,7 +30,7 @@ import {
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { keyframes, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { MDBox, Sidenav, WaevAvatarIcon, WaevLogoBasic, WaevLogoBasicLoading } from 'components';
+import { MDBox, Sidenav, WaevAvatarIcon, WaevLogoBasic as SlsLogo, WaevLogoBasicLoading as SlsLogoLoading } from 'components';
 import theme from 'assets/theme';
 import themeDark from 'assets/theme-dark';
 import routes from 'routes';
@@ -251,7 +251,7 @@ export function App() {
                       '>svg': { animation: `${fadeInFwdKeyframes()} 1s ease-in both` },
                     }}
                   >
-                    <WaevLogoBasic />
+                    <SlsLogo />
                   </MDBox>
 
                   <MDBox
@@ -264,7 +264,7 @@ export function App() {
                       '>svg': { animation: `${fadeInFwdKeyframes()} 1s ease-in both` },
                     }}
                   >
-                    <WaevLogoBasicLoading />
+                    <SlsLogoLoading />
                   </MDBox>
                 </MDBox>
               )

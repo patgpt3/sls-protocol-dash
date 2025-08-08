@@ -6,7 +6,7 @@ import { MDBox, MDTypography } from 'components';
 import { DashboardLayout } from 'components/LayoutContainers/DashboardLayout';
 import { DashboardNavbar } from 'components/Navbars/DashboardNavbar/DashboardNavbar';
 
-import { WaevLogo } from 'assets';
+import { WaevLogoBasic as SlsLogo } from 'assets';
 import { useContext, useEffect } from 'react';
 import { FormattedMessage } from 'utils';
 import { TourContext } from 'contexts/tourContext';
@@ -112,7 +112,7 @@ export function Home(): JSX.Element {
             alignItems: 'center',
           }}
         >
-          <WaevLogo
+          <SlsLogo
             width="100%"
             height="100%"
             sx={{
