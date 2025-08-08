@@ -269,7 +269,7 @@ export function App() {
                 </MDBox>
               )
             }
-            brandName="Waev Dashboard"
+            brandName="SLS Dashboard"
             routes={routes(currentUser, dataGetMe, isWaevAdmin)}
           />
           {notificationRenderSuccessNotification}

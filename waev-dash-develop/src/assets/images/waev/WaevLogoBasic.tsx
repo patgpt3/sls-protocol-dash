@@ -12,21 +12,21 @@ export const WaevLogoBasic = ({ width = '220', height = '60' }: Props): JSX.Elem
       width={width}
       height={height}
       viewBox="0 0 480 120"
-      style={{ background: '#0B1220' }}
+      style={{ background: 'transparent' }}
     >
       <g fill="none" fillRule="evenodd">
         {/* Shield */}
         <path
           d="M60 10c22 12 44 16 64 18v32c0 36-28 58-64 70C24 118-4 96-4 60V28C16 26 38 22 60 10z"
           transform="translate(8,8)"
-          fill="#0B1220"
+          fill="#0C1424"
           stroke="#FFFFFF"
           strokeWidth="6"
         />
         {/* DB cylinder */}
-        <ellipse cx="68" cy="44" rx="30" ry="12" fill="#0B1220" stroke="#FFFFFF" strokeWidth="6" />
-        <rect x="38" y="44" width="60" height="34" rx="6" fill="#0B1220" stroke="#FFFFFF" strokeWidth="6" />
-        <ellipse cx="68" cy="78" rx="30" ry="12" fill="#0B1220" stroke="#FFFFFF" strokeWidth="6" />
+        <ellipse cx="68" cy="44" rx="30" ry="12" fill="#0C1424" stroke="#FFFFFF" strokeWidth="6" />
+        <rect x="38" y="44" width="60" height="34" rx="6" fill="#0C1424" stroke="#FFFFFF" strokeWidth="6" />
+        <ellipse cx="68" cy="78" rx="30" ry="12" fill="#0C1424" stroke="#FFFFFF" strokeWidth="6" />
         {/* Lock */}
         <rect x="58" y="50" width="20" height="18" rx="3" fill="#FFFFFF" />
         <path d="M63 50v-6c0-6 5-11 11-11s11 5 11 11v6" fill="none" stroke="#FFFFFF" strokeWidth="6" />
