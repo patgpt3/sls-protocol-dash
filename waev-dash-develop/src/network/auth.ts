@@ -17,15 +17,11 @@ export const apiRegister = (
   lastName: string
   // password: string
 ): Promise<ResponseLogin> => {
+  // Prefer a simple JSON body for broader API compatibility
   return call('POST', REGISTER_URL, {
-    data: {
-      type: 'users',
-      attributes: {
-        email,
-        first_name: firstName,
-        last_name: lastName,
-      },
-    },
+    email,
+    first_name: firstName,
+    last_name: lastName,
   });
 };
 
