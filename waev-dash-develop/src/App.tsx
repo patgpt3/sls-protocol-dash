@@ -106,17 +106,17 @@ export function App() {
 
   useEffect(() => {
     if (process.env.REACT_APP_API_URL !== 'https://api.slsprotocol.com') {
-      let favicon = '/favicon.png';
+      let favicon = '/favicon.svg';
 
       switch (process.env.REACT_APP_API_URL) {
         case 'https://api-staging.slsprotocol.com':
-          favicon = '/favicon-staging.png';
+          favicon = '/favicon-staging.svg';
           break;
         case 'https://api-development.slsprotocol.com':
-          favicon = '/favicon-dev.png';
+          favicon = '/favicon-dev.svg';
           break;
         case 'http://localhost:3000':
-          favicon = '/favicon-local.png';
+          favicon = '/favicon-local.svg';
           break;
       }
 
