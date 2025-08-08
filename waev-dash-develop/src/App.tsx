@@ -105,14 +105,14 @@ export function App() {
   };
 
   useEffect(() => {
-    if (process.env.REACT_APP_API_URL !== 'https://api.waevdata.com') {
+    if (process.env.REACT_APP_API_URL !== 'https://api.slsprotocol.com') {
       let favicon = '/favicon.png';
 
       switch (process.env.REACT_APP_API_URL) {
-        case 'https://api-staging.waevdata.com':
+        case 'https://api-staging.slsprotocol.com':
           favicon = '/favicon-staging.png';
           break;
-        case 'https://api-development.waevdata.com':
+        case 'https://api-development.slsprotocol.com':
           favicon = '/favicon-dev.png';
           break;
         case 'http://localhost:3000':
