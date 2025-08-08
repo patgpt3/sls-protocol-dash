@@ -1,11 +1,11 @@
 {
-  "short_name": "Waev Dashboard",
-  "name": "Waev Dashboard",
+  "short_name": "SLS Dashboard",
+  "name": "SLS Dashboard",
   "icons": [
     {
-      "src": "favicon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "start_url": ".",
